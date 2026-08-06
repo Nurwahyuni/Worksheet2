@@ -16,14 +16,14 @@ const resultsScreen = document.getElementById('results-screen');
 const appTitle = document.getElementById('app-title');
 
 // --- INITIALIZATION ---
-async function loadDefaultWorksheet() {
+async function loadWorksheet(filepath) {
     try {
-        const response = await fetch('worksheet1.json');
-        if (!response.ok) throw new Error("Could not load local JSON. Are you running a local server?");
+        const response = await fetch(filepath);
+        if (!response.ok) throw new Error("Could not load the worksheet file.");
         const data = await response.json();
         startWorksheet(data);
     } catch (error) {
-        alert("Error loading default file: " + error.message + "\n\nPlease use the 'Upload File' button or run via a local web server (like VS Code Live Server).");
+        alert("Error loading file: " + error.message);
     }
 }
 

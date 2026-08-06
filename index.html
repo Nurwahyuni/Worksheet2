@@ -23,7 +23,10 @@
                 <p>Select a worksheet file to start learning.</p>
                 <input type="file" id="file-input" accept=".json" onchange="handleFileUpload(event)">
                 <div class="divider">OR</div>
-                <button class="btn primary-btn" onclick="loadDefaultWorksheet()">Load Default Math Worksheet</button>
+                <div style="display: flex; gap: 10px; justify-content: center;">
+                    <button class="btn primary-btn" onclick="loadWorksheet('question/math.json')">📘 Load Math</button>
+                    <button class="btn success-btn" onclick="loadWorksheet('question/english.json')">📙 Load English</button>
+                </div>
             </div>
 
             <!-- Quiz Screen -->
