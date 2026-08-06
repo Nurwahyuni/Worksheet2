@@ -1,0 +1,51 @@
+{
+    "title": "Grade 2 Math: Place Value to 100",
+    "questions": [
+        {
+            "type": "mcq",
+            "questionText": "Look at the number 74. What is the value of the digit 7?",
+            "options": ["7", "70", "4", "74"],
+            "answer": "70",
+            "hint": "The 7 is in the 'tens' place."
+        },
+        {
+            "type": "tf",
+            "questionText": "True or False: 5 tens and 8 ones is equal to 85.",
+            "options": ["True", "False"],
+            "answer": "False",
+            "hint": "Put the tens digit first, then the ones digit."
+        },
+        {
+            "type": "fitb",
+            "questionText": "Decompose the number 42. It has ___ tens and 2 ones.",
+            "answer": ["4", "four"],
+            "hint": "Look at the first digit in the number 42."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Which number is GREATER?",
+            "options": ["63", "36", "Equal"],
+            "answer": "63",
+            "hint": "Always check the tens place first when comparing numbers to 100."
+        },
+        {
+            "type": "short",
+            "questionText": "Round the number 28 to the nearest 10.",
+            "answer": ["30", "thirty"],
+            "hint": "Numbers ending in 5, 6, 7, 8, or 9 round UP."
+        },
+        {
+            "type": "short",
+            "questionText": "Order these numbers from smallest to largest: 45, 12, 89, 34. (Type them with commas, like: 1, 2, 3, 4)",
+            "answer": ["12, 34, 45, 89", "12,34,45,89"],
+            "hint": "Find the smallest tens digit first."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Regrouping: If I have 3 tens and 15 ones, what is the standard number?",
+            "options": ["315", "45", "35", "55"],
+            "answer": "45",
+            "hint": "10 ones makes a new ten! Add 1 ten to the 3 tens you already have, leaving 5 ones."
+        }
+    ]
+}

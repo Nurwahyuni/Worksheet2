@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Learning Worksheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <h1 id="app-title">Fun Learning App</h1>
+        <button id="toggle-teacher-btn" onclick="toggleTeacherMode()">Teacher Mode ⚙️</button>
+    </nav>
+
+    <div class="main-container">
+        
+        <!-- STUDENT MODE -->
+        <div id="student-view" class="view active">
+            <!-- Setup Screen -->
+            <div id="setup-screen" class="screen active">
+                <h2>Welcome to your Worksheet!</h2>
+                <p>Select a worksheet file to start learning.</p>
+                <input type="file" id="file-input" accept=".json" onchange="handleFileUpload(event)">
+                <div class="divider">OR</div>
+                <button class="btn primary-btn" onclick="loadDefaultWorksheet()">Load Default Math Worksheet</button>
+            </div>
+
+            <!-- Quiz Screen -->
+            <div id="quiz-screen" class="screen hidden">
+                <div class="header-stats">
+                    <div class="progress-container">
+                        <div id="progress-bar"></div>
+                    </div>
+                    <span id="progress-text">1/10</span>
+                    <span id="score-display">Score: 0</span>
+                </div>
+                
+                <div id="question-container" class="card">
+                    <!-- Question content injected here via JS -->
+                </div>
+
+                <div class="feedback-area" id="feedback-area"></div>
+
+                <div class="controls">
+                    <button id="hint-btn" class="btn secondary-btn" onclick="showHint()">Hint 💡</button>
+                    <button id="check-btn" class="btn primary-btn" onclick="checkAnswer()">Check Answer ✓</button>
+                    <button id="next-btn" class="btn primary-btn hidden" onclick="nextQuestion()">Next ➔</button>
+                </div>
+            </div>
+
+            <!-- Results Screen -->
+            <div id="results-screen" class="screen hidden text-center">
+                <div id="celebration">🎉</div>
+                <h2>Worksheet Complete!</h2>
+                <p id="final-score-text">You scored 8 out of 10!</p>
+                <div class="action-buttons">
+                    <button class="btn secondary-btn" onclick="resetApp()">Start Over</button>
+                    <button id="retry-btn" class="btn warning-btn hidden" onclick="retryIncorrect()">Retry Incorrect Questions</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- TEACHER MODE -->
+        <div id="teacher-view" class="view hidden card">
+            <h2>Teacher Dashboard</h2>
+            <p>Create, edit, or import worksheets using JSON format.</p>
+            
+            <div class="teacher-controls">
+                <button class="btn secondary-btn" onclick="document.getElementById('teacher-file').click()">Import JSON</button>
+                <input type="file" id="teacher-file" accept=".json" style="display:none;" onchange="importTeacherJSON(event)">
+                <button class="btn primary-btn" onclick="exportJSON()">Export JSON 💾</button>
+                <button class="btn success-btn" onclick="previewWorksheet()">Preview as Student ▶️</button>
+            </div>
+
+            <label for="json-editor">Worksheet Data (JSON):</label>
+            <textarea id="json-editor" spellcheck="false"></textarea>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
