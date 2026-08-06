@@ -218,7 +218,7 @@ function resetApp() {
     setupScreen.classList.remove('hidden');
     quizScreen.classList.add('hidden');
     resultsScreen.classList.add('hidden');
-    appTitle.textContent = "Fun Learning App";
+    appTitle.textContent = "Elmira & Eiliya Learning App";
     worksheetData = null;
 }
 

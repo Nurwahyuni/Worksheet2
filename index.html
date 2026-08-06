@@ -9,7 +9,7 @@
 <body>
     <!-- Top Navigation -->
     <nav class="top-nav">
-        <h1 id="app-title">Fun Learning App</h1>
+        <h1 id="app-title">Elmira & Eiliya Learning App</h1>
         <button id="toggle-teacher-btn" onclick="toggleTeacherMode()">Teacher Mode ⚙️</button>
     </nav>
 
@@ -18,20 +18,45 @@
         <!-- STUDENT MODE -->
         <div id="student-view" class="view active">
             <!-- Setup Screen -->
+            <!-- Setup Screen -->
             <div id="setup-screen" class="screen active">
                 <h2>Welcome to your Worksheet!</h2>
-                <p>Select a worksheet file to start learning.</p>
-                <input type="file" id="file-input" accept=".json" onchange="handleFileUpload(event)">
-                <div class="divider">OR</div>
-                <div style="display: flex; gap: 10px; justify-content: center;">
-                    <button class="btn primary-btn" onclick="loadWorksheet('question/math.json')">📘 Load Math</button>
-                    <button class="btn success-btn" onclick="loadWorksheet('question/english.json')">📙 Load English</button>
+                <p>Select a topic to start learning.</p>
+                
+                <!-- NEW EXPANDABLE MENU -->
+                <div class="subject-accordion">
+                    
+                    <!-- Math Category -->
+                    <details class="subject-details" open>
+                        <summary class="subject-summary">📘 Grade 2 Math</summary>
+                        <div class="topic-list">
+                            <button class="topic-btn" onclick="loadWorksheet('question/math.json')">Numbers to 100</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/math_place_value.json')">The Place Value</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/math_money.json')">Money</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/math_ordinal.json')">Ordinal Numbers</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/math_add_sub.json')">Addition & Subtraction within 100</button>
+                        </div>
+                    </details>
+
+                    <!-- English Category -->
+                    <details class="subject-details">
+                        <summary class="subject-summary" style="background: var(--success);">📙 Grade 2 English</summary>
+                        <div class="topic-list">
+                            <button class="topic-btn" onclick="loadWorksheet('question/english-feeling.json')">Fellings</button>
+                        </div>
+                    </details>
+
                 </div>
+
+                <div class="divider">OR</div>
+                <input type="file" id="file-input" accept=".json" onchange="handleFileUpload(event)">
             </div>
 
             <!-- Quiz Screen -->
             <div id="quiz-screen" class="screen hidden">
                 <div class="header-stats">
+                    <!-- TOMBOL HOME BARU -->
+                    <button class="icon-btn" onclick="resetApp()" title="Back to Home Screen">🏠</button>
                     <div class="progress-container">
                         <div id="progress-bar"></div>
                     </div>

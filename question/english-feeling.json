@@ -1,0 +1,248 @@
+{
+    "title": "Grade 2 English: Mega Review",
+    "questions": [
+        {
+            "type": "short",
+            "questionText": "Write the missing letter: h _ p p y",
+            "answer": ["a", "A"],
+            "hint": "When you are smiling, you are h_ppy!"
+        },
+        {
+            "type": "short",
+            "questionText": "Write the missing letter: s u r p r _ s e d",
+            "answer": ["i", "I"],
+            "hint": "You feel this when someone gives you a surprise!"
+        },
+        {
+            "type": "short",
+            "questionText": "Write the missing letter: a n _ r y",
+            "answer": ["g", "G"],
+            "hint": "You feel this when your toy is broken."
+        },
+        {
+            "type": "short",
+            "questionText": "Write the missing letter: e x c _ t e d",
+            "answer": ["i", "I"],
+            "hint": "You feel this when you are going to play!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Which is the correct possessive word for 'I'?",
+            "options": ["Your", "My", "Its", "Her"],
+            "answer": "My",
+            "hint": "If I have a book, it is ___ book."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Which is the correct possessive word for 'It'?",
+            "options": ["Its", "His", "Our", "Their"],
+            "answer": "Its",
+            "hint": "The cat likes ___ toy."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Which is the correct possessive word for 'You'?",
+            "options": ["My", "Our", "Your", "His"],
+            "answer": "Your",
+            "hint": "If you have a pen, it is ___ pen."
+        },
+        {
+            "type": "fitb",
+            "questionText": "Fill in the blank: She has a red hat. It is ___ hat.",
+            "answer": ["her", "Her"],
+            "hint": "The word for 'She' is..."
+        },
+        {
+            "type": "short",
+            "questionText": "Type the word with the correct apostrophe: The (dogs) bone is big.",
+            "answer": ["dog's", "Dog's"],
+            "hint": "Use an apostrophe 's' to show the bone belongs to the dog."
+        },
+        {
+            "type": "short",
+            "questionText": "Type the word with the correct apostrophe: (Marys) book is on the table.",
+            "answer": ["Mary's", "mary's"],
+            "hint": "The book belongs to Mary."
+        },
+        {
+            "type": "short",
+            "questionText": "Unscramble this feeling word: w d o e r i r",
+            "answer": ["worried", "Worried"],
+            "hint": "Starts with 'w'. You feel this when you are scared of what might happen."
+        },
+        {
+            "type": "short",
+            "questionText": "Unscramble this feeling word: d a s",
+            "answer": ["sad", "Sad"],
+            "hint": "Starts with 's'. The opposite of happy."
+        },
+        {
+            "type": "short",
+            "questionText": "Unscramble this feeling word: g y a n r",
+            "answer": ["angry", "Angry"],
+            "hint": "Starts with 'a'. You feel this when you are very mad."
+        },
+        {
+            "type": "short",
+            "questionText": "Unscramble this feeling word: r i d e t",
+            "answer": ["tired", "Tired"],
+            "hint": "Starts with 't'. You feel this when you want to sleep."
+        },
+        {
+            "type": "fitb",
+            "questionText": "Our 5 senses: I use my nose to ___ the flower.",
+            "answer": ["smell", "Smell"],
+            "hint": "What does a nose do?"
+        },
+        {
+            "type": "fitb",
+            "questionText": "Our 5 senses: I use my ears to ___ the music.",
+            "answer": ["hear", "Hear"],
+            "hint": "What do ears do?"
+        },
+        {
+            "type": "fitb",
+            "questionText": "Our 5 senses: I use my hands to ___ the soft cat.",
+            "answer": ["touch", "Touch", "feel", "Feel"],
+            "hint": "Starts with 't'."
+        },
+        {
+            "type": "fitb",
+            "questionText": "Our 5 senses: I use my eyes to ___ the birds flying.",
+            "answer": ["see", "See"],
+            "hint": "What do eyes do?"
+        },
+        {
+            "type": "fitb",
+            "questionText": "Our 5 senses: I use my tongue to ___ the sweet candy.",
+            "answer": ["taste", "Taste"],
+            "hint": "Starts with 't'."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Match the opposite: What is the opposite of HOT?",
+            "options": ["Warm", "Cold", "Dry", "Sun"],
+            "answer": "Cold",
+            "hint": "Ice is..."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Match the opposite: What is the opposite of LOUD?",
+            "options": ["Quiet", "Noisy", "Fast", "Big"],
+            "answer": "Quiet",
+            "hint": "When you whisper, you are being..."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Match the opposite: What is the opposite of BEAUTIFUL?",
+            "options": ["Pretty", "Ugly", "Clean", "Smart"],
+            "answer": "Ugly",
+            "hint": "Starts with 'U'."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Match the opposite: What is the opposite of DANGEROUS?",
+            "options": ["Safe", "Scary", "Fast", "Bad"],
+            "answer": "Safe",
+            "hint": "Wearing a seatbelt keeps you..."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Missing word: I like apples, ___ I do not like bananas.",
+            "options": ["and", "but", "or", "then"],
+            "answer": "but",
+            "hint": "Use this word when things are different or opposite."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Missing word: She is small ___ very strong.",
+            "options": ["and", "but", "or", "then"],
+            "answer": "but",
+            "hint": "It is surprising that she is small AND strong, so we use..."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Missing word: I have a pet cat ___ a pet dog.",
+            "options": ["and", "but", "or", "then"],
+            "answer": "and",
+            "hint": "Use this word to join two things you have."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Missing word: We played games ___ ate cake.",
+            "options": ["and", "but", "or", "then"],
+            "answer": "and",
+            "hint": "Joining two fun activities!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Missing word: Do you want milk ___ juice?",
+            "options": ["and", "but", "or", "then"],
+            "answer": "or",
+            "hint": "Use this word when you have to choose one thing."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Missing word: You can wear the red shirt ___ the blue shirt.",
+            "options": ["and", "but", "or", "then"],
+            "answer": "or",
+            "hint": "You have a choice!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Missing word: First I wash my hands, ___ I eat my dinner.",
+            "options": ["and", "but", "or", "then"],
+            "answer": "then",
+            "hint": "Use this word to show what happens next."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Missing word: Mix the flour, ___ bake it in the oven.",
+            "options": ["and", "but", "or", "then"],
+            "answer": "then",
+            "hint": "What happens after you mix it?"
+        },
+        {
+            "type": "short",
+            "questionText": "Write the missing letters (nt, nk, nd, mp): The frog likes to ju _ _",
+            "answer": ["mp", "MP"],
+            "hint": "jump!"
+        },
+        {
+            "type": "short",
+            "questionText": "Write the missing letters (nt, nk, nd, mp): I write with my right ha _ _",
+            "answer": ["nd", "ND"],
+            "hint": "hand!"
+        },
+        {
+            "type": "short",
+            "questionText": "Write the missing letters (nt, nk, nd, mp): The color of a pig is pi _ _",
+            "answer": ["nk", "NK"],
+            "hint": "pink!"
+        },
+        {
+            "type": "short",
+            "questionText": "Write the missing letters (nt, nk, nd, mp): We sleep in a te _ _ when camping.",
+            "answer": ["nt", "NT"],
+            "hint": "tent!"
+        },
+        {
+            "type": "short",
+            "questionText": "Make the short word using an apostrophe: I am",
+            "answer": ["I'm", "i'm"],
+            "hint": "Combine them with an apostrophe ( ' )."
+        },
+        {
+            "type": "short",
+            "questionText": "Make the short word using an apostrophe: He has",
+            "answer": ["He's", "he's"],
+            "hint": "Combine them! It looks just like 'He is'."
+        },
+        {
+            "type": "short",
+            "questionText": "Make the short word using an apostrophe: We are",
+            "answer": ["We're", "we're"],
+            "hint": "Drop the 'a' and add an apostrophe."
+        }
+    ]
+}
