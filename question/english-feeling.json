@@ -1,50 +1,59 @@
 {
-    "title": "Grade 2 English: Mega Review",
+    "title": "Grade 2 English: Feelings",
+    "summary": "<b>1. Feelings (Perasaan):</b><br>😊 Happy = Senang<br>😲 Surprised = Terkejut<br>😡 Angry = Marah<br>😟 Worried = Cemas<br><br><b>2. Possessives (Kepunyaan):</b><br>⭐ I ➔ My (milikku)<br>⭐ You ➔ Your (milikmu)<br>⭐ She ➔ Her (miliknya perempuan)<br>⭐ He ➔ His (miliknya laki-laki)<br>⭐ It ➔ Its (milik hewan/benda)<br>⭐ We ➔ Our (milik kita)<br>⭐ They ➔ Their (milik mereka)<br><br><b>3. Our 5 Senses (Lima Panca Indera):</b><br>👁️ See = Melihat (Eyes / Mata)<br>👂 Hear = Mendengar (Ears / Telinga)<br>👃 Smell = Mencium bau (Nose / Hidung)<br>👅 Taste = Merasakan (Tongue / Lidah)<br>✋ Touch = Menyentuh (Hands / Tangan)<br><br><b>4. Apostrophes (Tanda Kutip Atas ' ):</b><br>📌 <b>Kepunyaan:</b> Tambahkan 's (Contoh: The dog's bone, Mary's book)<br>📌 <b>Singkatan (Short Words):</b> I am ➔ I'm, He is ➔ He's, We are ➔ We're<br><br><b>5. And, But, Or, Then:</b><br>➕ <b>And (Dan):</b> Menggabungkan 2 hal (Contoh: a cat and a dog)<br>➖ <b>But (Tetapi):</b> Berbeda/Berlawanan (Contoh: small but strong)<br>🤔 <b>Or (Atau):</b> Memilih (Contoh: milk or juice?)<br>➡️ <b>Then (Kemudian/Lalu):</b> Apa yang terjadi selanjutnya (Contoh: wash hands, then eat)",
     "questions": [
         {
-            "type": "short",
-            "questionText": "Write the missing letter: h _ p p y",
-            "answer": ["a", "A"],
-            "hint": "When you are smiling, you are h_ppy!"
+            "type": "matching",
+            "questionText": "Match the opposites! (Tap a word on the left, then tap on the right)",
+            "pairs": [
+                {"left": "Cold", "right": "Hot"},
+                {"left": "Quiet", "right": "Loud"},
+                {"left": "Ugly", "right": "Beautiful"},
+                {"left": "Safe", "right": "Dangerous"}
+            ],
+            "hint": "Match the words that mean the completely different thing!"
         },
         {
-            "type": "short",
-            "questionText": "Write the missing letter: s u r p r _ s e d",
-            "answer": ["i", "I"],
-            "hint": "You feel this when someone gives you a surprise!"
+            "type": "fill_letters",
+            "questionText": "Tap the letters below to complete the word!",
+            "word": "SURPRISED",
+            "blanks": [2, 5],
+            "hint": "You feel this when someone gives you a sudden gift!"
         },
         {
-            "type": "short",
-            "questionText": "Write the missing letter: a n _ r y",
-            "answer": ["g", "G"],
-            "hint": "You feel this when your toy is broken."
+            "type": "fill_letters",
+            "questionText": "Tap the letters below to complete the word!",
+            "word": "WORRIED",
+            "blanks": [1, 4],
+            "hint": "You feel this when you are scared of what might happen."
         },
         {
-            "type": "short",
-            "questionText": "Write the missing letter: e x c _ t e d",
-            "answer": ["i", "I"],
-            "hint": "You feel this when you are going to play!"
+            "type": "fill_letters",
+            "questionText": "Tap the letters below to complete the word!",
+            "word": "ANGRY",
+            "blanks": [1, 4],
+            "hint": ""
         },
         {
-            "type": "mcq",
-            "questionText": "Which is the correct possessive word for 'I'?",
-            "options": ["Your", "My", "Its", "Her"],
-            "answer": "My",
-            "hint": "If I have a book, it is ___ book."
+            "type": "fill_letters",
+            "questionText": "Tap the letters below to complete the word!",
+            "word": "HAPPY",
+            "blanks": [1,4],
+            "hint": "When you smile, you feel..."
         },
         {
-            "type": "mcq",
-            "questionText": "Which is the correct possessive word for 'It'?",
-            "options": ["Its", "His", "Our", "Their"],
-            "answer": "Its",
-            "hint": "The cat likes ___ toy."
-        },
-        {
-            "type": "mcq",
-            "questionText": "Which is the correct possessive word for 'You'?",
-            "options": ["My", "Our", "Your", "His"],
-            "answer": "Your",
-            "hint": "If you have a pen, it is ___ pen."
+            "type": "matching",
+            "questionText": "Match the word to its correct possessive! (Tap a word on the left, then tap on the right)",
+            "pairs": [
+                {"left": "I", "right": "My"},
+                {"left": "You", "right": "Your"},
+                {"left": "He", "right": "His"},
+                {"left": "She", "right": "Her"},
+                {"left": "It", "right": "Its"},
+                {"left": "We", "right": "Our"},
+                {"left": "They", "right": "Their"}
+            ],
+            "hint": "Example: If 'They' have a book, it is 'Their' book."
         },
         {
             "type": "fitb",
@@ -117,20 +126,6 @@
             "questionText": "Our 5 senses: I use my tongue to ___ the sweet candy.",
             "answer": ["taste", "Taste"],
             "hint": "Starts with 't'."
-        },
-        {
-            "type": "mcq",
-            "questionText": "Match the opposite: What is the opposite of HOT?",
-            "options": ["Warm", "Cold", "Dry", "Sun"],
-            "answer": "Cold",
-            "hint": "Ice is..."
-        },
-        {
-            "type": "mcq",
-            "questionText": "Match the opposite: What is the opposite of LOUD?",
-            "options": ["Quiet", "Noisy", "Fast", "Big"],
-            "answer": "Quiet",
-            "hint": "When you whisper, you are being..."
         },
         {
             "type": "mcq",
@@ -243,6 +238,12 @@
             "questionText": "Make the short word using an apostrophe: We are",
             "answer": ["We're", "we're"],
             "hint": "Drop the 'a' and add an apostrophe."
+        },
+        {
+            "type": "long",
+            "questionText": "Make a sentence using the word 'Happy'!",
+            "answer": ["happy"],
+            "hint": "Write a full sentence, like: I am very happy today."
         }
     ]
 }

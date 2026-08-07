@@ -349,3 +349,190 @@ input[type="text"]:focus, input[type="number"]:focus {
     transform: translateY(4px) !important;
     box-shadow: 0 0px 0 var(--ink) !important;
 }
+/* ==========================================================================
+   SOAL MENCOCOKKAN (MATCHING)
+   ========================================================================== */
+.match-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+.match-col {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 2;
+    width: 42%;
+}
+.match-item {
+    background: var(--card);
+    border: 3px solid var(--ink);
+    padding: 15px 10px;
+    border-radius: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 0 var(--ink);
+    transition: transform 0.1s;
+    user-select: none;
+}
+.match-item.selected {
+    background: var(--acorn);
+    color: var(--ink);
+    transform: translateY(4px);
+    box-shadow: 0 0px 0 var(--ink);
+    border-color: var(--ink);
+}
+.match-item.connected {
+    background: var(--sky);
+    color: var(--ink);
+    box-shadow: 0 2px 0 var(--ink);
+    transform: translateY(2px);
+}
+#match-svg {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+.match-line {
+    stroke: var(--ink);
+    stroke-width: 6;
+    stroke-linecap: round;
+}
+/* ==========================================================================
+   SOAL ISI HURUF (FILL LETTERS)
+   ========================================================================== */
+.slot-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.slot {
+    width: 46px; 
+    height: 56px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-size: 28px;
+    background: var(--soft);
+    border: 3px solid var(--ink);
+    border-radius: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    user-select: none;
+}
+
+.slot.filled {
+    background: var(--card);
+}
+
+.slot.blank {
+    cursor: pointer;
+    border-style: dashed;
+    border-color: var(--bark);
+}
+
+.slot.blank.has-letter {
+    border-style: solid;
+    background: var(--acorn);
+    border-color: var(--ink);
+}
+
+/* Baki/Tray untuk pilihan huruf di bawah */
+.tray {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: var(--paper);
+    border-radius: 20px;
+    border: 3px solid var(--ink);
+}
+
+.tray .slot {
+    cursor: pointer;
+    background: var(--card);
+    box-shadow: 0 4px 0 var(--ink);
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.tray .slot:active {
+    transform: translateY(4px);
+    box-shadow: 0 0px 0 var(--ink);
+}
+
+.tray .slot.hidden {
+    visibility: hidden; /* Sembunyikan huruf jika sudah dipakai */
+}
+/* ==========================================================================
+   SOAL LONG ANSWER (ESAI)
+   ========================================================================== */
+textarea.long-answer {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background: var(--soft);
+    border: 3px solid var(--ink);
+    border-radius: 14px;
+    font-family: inherit;
+    color: var(--ink);
+    resize: vertical;
+    line-height: 1.5;
+}
+
+textarea.long-answer:focus {
+    outline: 4px solid var(--sky);
+    outline-offset: 3px;
+}
+/* ==========================================================================
+   MENU AKORDEON TINGKAT KELAS (GRADE)
+   ========================================================================== */
+.grade-details {
+    margin-bottom: 25px;
+}
+
+.grade-summary {
+    background: var(--acorn); /* Warna kuning/oranye untuk kelas */
+    color: var(--ink);
+    padding: 18px 25px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    border: 4px solid var(--ink);
+    border-radius: 22px;
+    box-shadow: 0 6px 0 var(--ink);
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.grade-summary::-webkit-details-marker { display: none; }
+.grade-summary::after { content: ' ▼'; float: right; }
+.grade-details[open] .grade-summary::after { content: ' ▲'; }
+
+/* Efek saat akordeon Grade dibuka */
+.grade-details[open] .grade-summary {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 var(--ink);
+    margin-bottom: 15px;
+}
+
+/* Wadah untuk mata pelajaran yang ada di dalam Grade */
+.grade-content {
+    padding-left: 15px;
+    border-left: 5px dashed var(--mute);
+    margin-left: 20px;
+    margin-top: 15px;
+}

@@ -23,12 +23,16 @@
                 <h2>Welcome to your Worksheet!</h2>
                 <p>Select a topic to start learning.</p>
                 
+                <details class="grade-details" open>
+                    <summary class="grade-summary">🎓 Grade 2</summary>
+                    
+                    <div class="grade-content">
                 <!-- NEW EXPANDABLE MENU -->
-                <div class="subject-accordion">
+                <div class="subject-accordion open">
                     
                     <!-- Math Category -->
-                    <details class="subject-details" open>
-                        <summary class="subject-summary">📘 Grade 2 Math</summary>
+                    <details class="subject-details">
+                        <summary class="subject-summary">🧮 Math</summary>
                         <div class="topic-list">
                             <button class="topic-btn" onclick="loadWorksheet('question/math.json')">Numbers to 100</button>
                             <button class="topic-btn" onclick="loadWorksheet('question/math_place_value.json')">The Place Value</button>
@@ -40,18 +44,38 @@
 
                     <!-- English Category -->
                     <details class="subject-details">
-                        <summary class="subject-summary" style="background: var(--success);">📙 Grade 2 English</summary>
+                        <summary class="subject-summary" style="background: var(--success);">📙 English</summary>
                         <div class="topic-list">
                             <button class="topic-btn" onclick="loadWorksheet('question/english-feeling.json')">Fellings</button>
+                        </div>
+                    </details>
+                    <!-- PAIDB Category -->
+                    <details class="subject-details">
+                        <summary class="subject-summary">🕌 Pendidikan Agama Islam</summary>
+                        <div class="topic-list">
+                            <button class="topic-btn" onclick="loadWorksheet('question/paidb-belajarAlquran.json')">Belajar Al-Qur'an</button>
                         </div>
                     </details>
 
                 </div>
 
-                <div class="divider">OR</div>
-                <input type="file" id="file-input" accept=".json" onchange="handleFileUpload(event)">
+                <!--<div class="divider">OR</div>
+                <input type="file" id="file-input" accept=".json" onchange="handleFileUpload(event)">-->
             </div>
-
+            </div>
+</details>
+            <!-- Summary / Material Screen -->
+            <div id="summary-screen" class="screen hidden card">
+                <h2 id="summary-title" class="text-center" style="margin-bottom: 15px;">Lesson Summary</h2>
+                
+                <!-- Kotak catatan materi -->
+                <div id="summary-content" class="note" style="font-size: 1.2rem; margin-bottom: 25px; line-height: 1.6;">
+                    <!-- Materi akan dimasukkan lewat JS -->
+                </div>
+                
+                <button class="btn success-btn" onclick="startQuiz()">Start Practice 🚀</button>
+                <button class="btn secondary-btn" onclick="resetApp()" style="margin-top: 15px;">Back to Menu</button>
+            </div>
             <!-- Quiz Screen -->
             <div id="quiz-screen" class="screen hidden">
                 <div class="header-stats">

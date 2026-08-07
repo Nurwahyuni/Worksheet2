@@ -1,0 +1,183 @@
+{
+    "title": "Belajar Al-Qur'an: An-Nas & Hijaiyah",
+    "summary": "<b>1. Surat An-Nas (Manusia):</b><br>📖 Merupakan surat ke-114 (surat terakhir) dalam Al-Qur'an.<br>🕋 Diturunkan di kota Makkah (tergolong surat Makkiyah).<br>🔢 Terdiri dari 6 ayat.<br>🛡️ <b>Pesan Pokok:</b> Perintah untuk memohon perlindungan HANYA kepada Allah dari kejahatan bisikan setan (baik dari golongan jin maupun manusia).<br><br><b>2. Belajar Makharijul Huruf:</b><br>🗣️ <b>Apa itu?</b> Tempat keluarnya huruf-huruf Hijaiyah saat kita membacanya.<br>🎯 <b>Tujuannya:</b> Agar kita bisa membedakan satu huruf dengan huruf lainnya sehingga artinya tidak salah.<br>Ada 5 tempat keluarnya huruf:<br>1️⃣ <b>Al-Jauf</b> (Rongga mulut/tenggorokan) ➔ Contoh: <b> ي , ا , و</b>.<br>2️⃣ <b>Al-Halq</b> (Tenggorokan) ➔ Contoh: ء, ه, ع, ح, غ, خ<br>3️⃣ <b>Al-Lisan</b> (Lidah) ➔ Hurufnya: ق, ك, ج, ش, ي, ض, ل, ن, ر, ط, د, ت, ص, ز, س, ظ, ذ, ث<br>4️⃣ <b>As-Syafatain</b> (Dua bibir) ➔ Contoh: ب (Ba), م (Mim), و (Wawu), ف (Fa).<br>5️⃣ <b>Al-Khaisyum</b> (Pangkal hidung) ➔ Tempat keluarnya suara dengung (Ghunnah), hurufnya: <b>م</b> (Mim) dan <b>ن</b> (Nun).<br><br><b>3. Huruf Hijaiyah Bersambung:</b><br>Ada 6 huruf yang sombong (hanya bisa disambung dari kanan, tapi TIDAK BISA menyambung ke kiri): <b>ا , د , ذ , ر , ز , و</b>",
+    "questions": [
+        {
+            "type": "mcq",
+            "questionText": "Surat An-Nas adalah surat yang ke berapa di dalam Al-Qur'an?",
+            "options": ["1", "100", "114", "110"],
+            "answer": "114",
+            "hint": "An-Nas adalah surat paling terakhir di Al-Qur'an."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Berapa jumlah ayat pada surat An-Nas?",
+            "options": ["3 ayat", "4 ayat", "5 ayat", "6 ayat"],
+            "answer": "6 ayat",
+            "hint": "Qul a'uzu birabbin-nas..."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Surat An-Nas diturunkan di kota mana?",
+            "options": ["Makkah", "Madinah", "Mesir", "Palestina"],
+            "answer": "Makkah",
+            "hint": "Oleh karena itu disebut surat Makkiyah."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Apa arti dari kata 'An-Nas'?",
+            "options": ["Jin", "Manusia", "Malaikat", "Waktu Subuh"],
+            "answer": "Manusia",
+            "hint": "Makhluk ciptaan Allah yang memimpin di bumi."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Apa pesan pokok atau tujuan utama kita membaca surat An-Nas?",
+            "options": ["Meminta rezeki yang banyak", "Mengingat hari kiamat", "Memohon perlindungan kepada Allah dari bisikan setan", "Belajar tentang sejarah Nabi"],
+            "answer": "Memohon perlindungan kepada Allah dari bisikan setan",
+            "hint": "Minta dijaga dari kejahatan jin dan manusia."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Apa yang dimaksud dengan Makharijul Huruf?",
+            "options": ["Cara membaca huruf dengan cepat", "Tempat keluarnya huruf-huruf Hijaiyah", "Cara menghafal Al-Qur'an", "Arti dari huruf Hijaiyah"],
+            "answer": "Tempat keluarnya huruf-huruf Hijaiyah",
+            "hint": "Makhraj artinya tempat keluar."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Mengapa kita harus belajar Makharijul Huruf?",
+            "options": ["Agar suara menjadi keras", "Agar cepat selesai membaca", "Untuk membedakan satu huruf dengan huruf lainnya", "Agar terlihat pintar"],
+            "answer": "Untuk membedakan satu huruf dengan huruf lainnya",
+            "hint": "Supaya bacaan kita benar dan artinya tidak berubah."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Makharijul huruf 'Al-Halq' artinya huruf keluar dari mana?",
+            "options": ["Dua bibir", "Lidah", "Tenggorokan", "Rongga hidung"],
+            "answer": "Tenggorokan",
+            "hint": "Tempat keluarnya huruf Ain dan Ha."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Makharijul huruf 'As-Syafatain' artinya huruf keluar dari mana?",
+            "options": ["Dua bibir", "Lidah", "Tenggorokan", "Rongga hidung"],
+            "answer": "Dua bibir",
+            "hint": "Tempat keluarnya huruf Ba dan Mim."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Huruf Ba ( ب ) dan Mim ( م ) berasal dari tempat keluar huruf bagian...",
+            "options": ["Al-Jauf", "Al-Lisan", "Al-Halq", "As-Syafatain"],
+            "answer": "As-Syafatain",
+            "hint": "Coba ucapkan 'Ba' dan 'Mim', bibirmu menempel kan?"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Al-Khaisyum adalah tempat keluarnya huruf dari pangkal hidung. Suara apa yang keluar dari sini?",
+            "options": ["Suara kasar", "Suara dengung (Ghunnah)", "Suara pantulan", "Suara terputus"],
+            "answer": "Suara dengung (Ghunnah)",
+            "hint": "Cobalah tutup hidungmu saat bilang 'Nnnnn'."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Makharijul huruf 'Al-Lisan' artinya huruf yang keluar dengan bantuan...",
+            "options": ["Dua bibir", "Tenggorokan", "Lidah", "Hidung"],
+            "answer": "Lidah",
+            "hint": "Paling banyak huruf Hijaiyah keluar dari sini."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Mana dari huruf berikut ini yang TIDAK BISA menyambung ke arah kiri (huruf setelahnya)?",
+            "options": ["ب (Ba)", "س (Sin)", "د (Dal)", "م (Mim)"],
+            "answer": "د (Dal)",
+            "hint": "Huruf ini termasuk dalam 6 huruf yang tidak bisa menyambung ke kiri."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Huruf Ain ( ع ) dan Ha ( ح ) keluar dari bagian Al-Halq, yang artinya...",
+            "options": ["Dua bibir", "Tenggorokan", "Lidah", "Rongga hidung"],
+            "answer": "Tenggorokan",
+            "hint": "Coba rasakan di lehermu saat membaca 'Aa' dan 'Haa'."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Jika huruf ب (Ba), س (Sin), dan م (Mim) disambung (ب س م), maka tulisannya menjadi...",
+            "options": ["مَسْبِ", "بِسْمِ", "بَ سَ مَ", "سَمِبَ"],
+            "answer": "بِسْمِ",
+            "hint": "Bacanya Bismillah (Bism...)"
+        },
+        {
+            "type": "short",
+            "questionText": "Surat An-Nas turun di kota Makkah, maka surat An-Nas disebut golongan surat M _ _ _ _ _ _ _",
+            "answer": ["Makkiyah", "makkiyah"],
+            "hint": "Berasal dari nama kota Makkah."
+        },
+        {
+            "type": "short",
+            "questionText": "Surat An-Nas terdiri dari berapa ayat? (Ketik angkanya)",
+            "answer": ["6", "enam", "Enam"],
+            "hint": "Angka antara 5 dan 7."
+        },
+        {
+            "type": "short",
+            "questionText": "Tempat keluarnya huruf-huruf Hijaiyah disebut M _ _ _ _ _ _ _ _ Huruf.",
+            "answer": ["Makharijul", "makharijul", "Makhraj", "makhraj"],
+            "hint": "Berawalan huruf M."
+        },
+        {
+            "type": "short",
+            "questionText": "Bahasa Arab untuk tempat keluar huruf di 'Dua Bibir' adalah As-S _ _ _ _ _ _ _ _",
+            "answer": ["Syafatain", "syafatain", "as-syafatain", "as syafatain"],
+            "hint": "Sya-fa-tain."
+        },
+        {
+            "type": "short",
+            "questionText": "Ada berapa jumlah tempat keluarnya huruf (makharijul huruf) secara umum? (Ketik angkanya)",
+            "answer": ["5", "lima", "Lima"],
+            "hint": "Sama seperti jumlah rukun Islam dan jari tangan."
+        },
+        {
+            "type": "long",
+            "questionText": "Mengapa kita mempelajari Makharijul Huruf saat membaca Al-Qur'an?",
+            "answer": ["beda", "membedakan"],
+            "hint": "Tuliskan kalimat yang mengandung kata 'membedakan' (misal: Untuk membedakan huruf)."
+        },
+        {
+            "type": "long",
+            "questionText": "Apa yang harus kita lakukan jika kita merasa diganggu oleh bisikan setan? (Sesuai pesan surat An-Nas)",
+            "answer": ["berlindung", "lindung", "allah"],
+            "hint": "Tuliskan kalimat yang mengandung kata 'berlindung' atau 'Allah'."
+        },
+        {
+            "type": "long",
+            "questionText": "Coba sebutkan 2 nama Makharijul Huruf yang kamu ingat! ",
+            "answer": ["al", "halq", "lisan", "syafatain", "jauf", "khaisyum"],
+            "hint": "Sebutkan minimal 2 (misal: Al-Halq dan Al-Lisan)."
+        },
+        {
+            "type": "long",
+            "questionText": "Jelaskan apa artinya As-Syafatain dan sebutkan minimal 1 huruf yang keluar dari situ!",
+            "answer": ["bibir", "ba", "mim", "wawu", "fa"],
+            "hint": "Tulis kalimat yang mengandung kata 'bibir' dan hurufnya (misal 'ba' atau 'mim')."
+        },
+        {
+            "type": "long",
+            "questionText": "Pesan pokok surat An-Nas!",
+            "answer": ["manusia", "orang", "lindung","setan"],
+            "hint": "pesan pokok surat An-nas"
+        },
+        {
+            "type": "matching",
+            "questionText": "Tarik garis untuk mencocokkan huruf BERSAMBUNG dengan huruf PISAH-nya!",
+            "pairs": [
+                {"left": "بِسْمِ", "right": "ب - س - م"},
+                {"left": "قُلْ", "right": "ق - ل"},
+                {"left": "اَحَدٌ", "right": "ا - ح - د"},
+                {"left": "مَلِكِ", "right": "م - ل - ك"},
+                {"left": "صَمَدُ", "right": "ص - م - د"}
+            ],
+            "hint": "Lihat baik-baik huruf penyusunnya!"
+        }
+    ]
+}
