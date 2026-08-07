@@ -1,0 +1,84 @@
+{
+    "title": "Playgroup: Hewan & Warna Seru! 🎨",
+    "summary": "<b>Halo Adik Pintar! Yuk kita belajar:</b><br><br><b>🐶 Suara Hewan:</b><br>🐱 Kucing = Meong meong<br>🐶 Anjing = Guk guk<br>🐮 Sapi = Moo moo<br>🦆 Bebek = Kwek kwek<br><br><b>🌈 Warna-Warni:</b><br>🍎 Apel = Merah (Red)<br>🍌 Pisang = Kuning (Yellow)<br>🌿 Daun = Hijau (Green)<br>🌊 Air Laut = Biru (Blue)",
+    "questions": [
+        {
+            "type": "mcq",
+            "questionText": "Hewan apakah yang suaranya 'Meong... Meong...'?",
+            "options": ["🐱 Kucing", "🐶 Anjing", "🐮 Sapi", "🦆 Bebek"],
+            "answer": "🐱 Kucing",
+            "hint": "Hewan ini suka makan ikan!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Hewan apakah yang suaranya 'Moo... Moo...'?",
+            "options": ["🐱 Kucing", "🐒 Monyet", "🐮 Sapi", "🐥 Ayam"],
+            "answer": "🐮 Sapi",
+            "hint": "Hewan ini menghasilkan susu yang kita minum."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Gambar manakah yang merupakan 'Bebek'?",
+            "options": ["🦆 Bebek", "🦅 Elang", "🦉 Burung Hantu", "🦇 Kelelawar"],
+            "answer": "🦆 Bebek",
+            "hint": "Bebek suka berenang sambil bilang kwek-kwek!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Hewan apa yang suka melompat dan makan wortel 🥕?",
+            "options": ["🐰 Kelinci", "🐢 Kura-kura", "🐍 Ular", "🐘 Gajah"],
+            "answer": "🐰 Kelinci",
+            "hint": "Telinganya panjang dan jalannya lompat-lompat!"
+        },
+        {
+            "type": "matching",
+            "questionText": "Tarik garis gambar hewan ke suaranya! (Ketuk kiri, lalu ketuk kanan)",
+            "pairs": [
+                {"left": "🐱 Kucing", "right": "Meong"},
+                {"left": "🐶 Anjing", "right": "Guk guk"},
+                {"left": "🐮 Sapi", "right": "Moo"},
+                {"left": "🦆 Bebek", "right": "Kwek kwek"}
+            ],
+            "hint": "Ketuk gambar hewannya dulu ya, baru suaranya!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Warna buah Apel 🍎 adalah...",
+            "options": ["Merah", "Biru", "Hijau", "Hitam"],
+            "answer": "Merah",
+            "hint": "Warnanya sama seperti buah stroberi."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Warna buah Pisang 🍌 adalah...",
+            "options": ["Kuning", "Merah", "Biru", "Coklat"],
+            "answer": "Kuning",
+            "hint": "Warnanya sama seperti matahari bersinar."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Daun di pohon 🌿 warnanya apa ya?",
+            "options": ["Merah", "Kuning", "Hijau", "Biru"],
+            "answer": "Hijau",
+            "hint": "Warnanya sama seperti rumput di lapangan."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Langit 🌤️ warnanya apa?",
+            "options": ["Biru", "Merah", "Hijau", "Ungu"],
+            "answer": "Biru",
+            "hint": "Warnanya sama dengan air laut."
+        },
+        {
+            "type": "matching",
+            "questionText": "Tarik garis gambar benda ke warnanya! (Ketuk kiri, lalu ketuk kanan)",
+            "pairs": [
+                {"left": "🍎 Apel", "right": "Merah"},
+                {"left": "🍌 Pisang", "right": "Kuning"},
+                {"left": "🌿 Daun", "right": "Hijau"},
+                {"left": "🌊 Air Laut", "right": "Biru"}
+            ],
+            "hint": "Ketuk gambarnya, lalu cari warnanya!"
+        }
+    ]
+}

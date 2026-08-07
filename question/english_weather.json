@@ -1,0 +1,188 @@
+{
+    "title": "English: Weather & Time ⛅",
+    "summary": "<b>1. Weather Words:</b><br>Sunny, hot, windy, rainy, snowy, foggy, cool, wet, dry, warm, cold, and freezing.<br><br><b>2. Present Continuous (am/is/are + ing):</b><br>We use this to talk about things happening right now!<br>• I <b>am wearing</b> a coat.<br>• He/She/It <b>is raining</b>.<br>• We/They <b>are playing</b>.<br><br><b>3. Short Forms:</b><br>• I am ➔ <b>I'm</b><br>• We are ➔ <b>We're</b><br>• They are ➔ <b>They're</b><br>• He is ➔ <b>He's</b><br><br><b>4. In / On / At:</b><br>• <b>On</b>: for days of the week (<i>on Monday, on Friday</i>). Remember to use a Capital Letter for days!<br>• <b>In</b>: for parts of the day or seasons (<i>in the morning, in the summer</i>).<br>• <b>At</b>: for night or weekend (<i>at night, at the weekend</i>).<br><br><b>5. Making Questions:</b><br>Swap the first two words! <i>It is</i> rainy. ➔ <i>Is it</i> rainy?",
+    "questions": [
+        {
+            "type": "short",
+            "questionText": "Unscramble the letters to make a day of the week: <b>y a o m d n</b>",
+            "answer": ["Monday", "monday"],
+            "hint": "The first day of the school week. Start with a capital letter!"
+        },
+        {
+            "type": "short",
+            "questionText": "Unscramble the letters to make a day of the week: <b>s d u t y e a</b>",
+            "answer": ["Tuesday", "tuesday"],
+            "hint": "The day after Monday."
+        },
+        {
+            "type": "short",
+            "questionText": "Unscramble the letters to make a day of the week: <b>e d w d a s e n y</b>",
+            "answer": ["Wednesday", "wednesday"],
+            "hint": "The middle of the school week."
+        },
+        {
+            "type": "short",
+            "questionText": "Unscramble the letters to make a day of the week: <b>r t h s d a u y</b>",
+            "answer": ["Thursday", "thursday"],
+            "hint": "The day before Friday."
+        },
+        {
+            "type": "short",
+            "questionText": "Unscramble the letters to make a day of the week: <b>r y i f d a</b>",
+            "answer": ["Friday", "friday"],
+            "hint": "The last day of the school week."
+        },
+        {
+            "type": "short",
+            "questionText": "Unscramble the letters to make a day of the week: <b>a t r s d a y u</b>",
+            "answer": ["Saturday", "saturday"],
+            "hint": "The first day of the weekend!"
+        },
+        {
+            "type": "short",
+            "questionText": "Unscramble the letters to make a day of the week: <b>s d n u y a</b>",
+            "answer": ["Sunday", "sunday"],
+            "hint": "The last day of the weekend."
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the day of the week!",
+            "word": "WEDNESDAY",
+            "blanks": [1, 3, 5, 8],
+            "hint": "W _ D _ E _ D A _"
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the day of the week!",
+            "word": "FRIDAY",
+            "blanks": [1, 3, 4],
+            "hint": "F _ I _ _ Y"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct preposition and capital letter: We play football ___ ______.",
+            "options": ["on Monday", "in monday", "at Monday", "on monday"],
+            "answer": "on Monday",
+            "hint": "Use 'on' for days of the week, and days must start with a big letter!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct preposition and capital letter: I have English class ___ ______.",
+            "options": ["at thursday", "in Thursday", "on Thursday", "on thursday"],
+            "answer": "on Thursday",
+            "hint": "Use 'on' for days of the week. Don't forget the capital letter!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct words: The sun is very hot ___ ______.",
+            "options": ["on the summer", "in the summer", "at the summer", "in Summer"],
+            "answer": "in the summer",
+            "hint": "Use 'in' for seasons (summer, winter)."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct words: I eat my breakfast ___ ______.",
+            "options": ["on the morning", "at the morning", "in the morning", "in Morning"],
+            "answer": "in the morning",
+            "hint": "Use 'in' for parts of the day (morning, afternoon)."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct words: We go to sleep ___ ______.",
+            "options": ["in night", "on night", "at night", "at Night"],
+            "answer": "at night",
+            "hint": "For 'night', we always use 'at'."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct words: I play with my friends ___ ______.",
+            "options": ["in the weekend", "on the weekend", "at the weekend", "at Weekend"],
+            "answer": "at the weekend",
+            "hint": "In British English, we say 'at' for the weekend."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Present Continuous: Look! The rain ______ down.",
+            "options": ["are falling", "is falling", "am falling", "falls"],
+            "answer": "is falling",
+            "hint": "Rain is an 'it', so we use 'is' + falling."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Present Continuous: They ______ in the snow right now.",
+            "options": ["are playing", "is playing", "am playing", "playing"],
+            "answer": "are playing",
+            "hint": "For 'They', we use 'are'."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Present Continuous: I ______ my warm coat today.",
+            "options": ["are wearing", "is wearing", "am wearing", "wears"],
+            "answer": "am wearing",
+            "hint": "For 'I', we use 'am'."
+        },
+        {
+            "type": "matching",
+            "questionText": "Make the words shorter! Match the words to their short forms.",
+            "pairs": [
+                {"left": "We are", "right": "We're"},
+                {"left": "They are", "right": "They're"},
+                {"left": "I am", "right": "I'm"},
+                {"left": "It is", "right": "It's"}
+            ],
+            "hint": "Look for the apostrophe ( ' )."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the Weather Opposites! (Find the opposite words)",
+            "pairs": [
+                {"left": "Hot", "right": "Cold"},
+                {"left": "Wet", "right": "Dry"},
+                {"left": "Warm", "right": "Cool"},
+                {"left": "Sunny", "right": "Rainy"}
+            ],
+            "hint": "What is the opposite of being wet in the rain?"
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the numbers with the correct words!",
+            "pairs": [
+                {"left": "25", "right": "Twenty-five"},
+                {"left": "40", "right": "Forty"},
+                {"left": "73", "right": "Seventy-three"},
+                {"left": "100", "right": "One hundred"}
+            ],
+            "hint": "Read the numbers carefully."
+        },
+        {
+            "type": "short",
+            "questionText": "Complete the sentence: I cannot see the cars on the road because it is very F _ _ _ Y.",
+            "answer": ["foggy", "Foggy"],
+            "hint": "A weather where clouds are very low to the ground."
+        },
+        {
+            "type": "short",
+            "questionText": "Complete the sentence: Water turns into ice when the weather is F _ _ _ Z _ N G.",
+            "answer": ["freezing", "Freezing"],
+            "hint": "When it is extremely, extremely cold!"
+        },
+        {
+            "type": "short",
+            "questionText": "Complete the sentence: Hold onto your hat! It is very W _ N _ Y today.",
+            "answer": ["windy", "Windy"],
+            "hint": "When the air moves very fast."
+        },
+        {
+            "type": "short",
+            "questionText": "Make a question out of this sentence: <b>It is raining.</b> (Don't forget the question mark!)",
+            "answer": ["Is it raining?", "Is it raining"],
+            "hint": "Swap the first two words: Is it..."
+        },
+        {
+            "type": "short",
+            "questionText": "Make a question out of this sentence: <b>They are playing.</b> (Don't forget the question mark!)",
+            "answer": ["Are they playing?", "Are they playing"],
+            "hint": "Swap the first two words: Are they..."
+        }
+    ]
+}

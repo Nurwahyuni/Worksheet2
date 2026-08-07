@@ -120,6 +120,20 @@ function renderQuestion() {
             html += `<input type="text" id="text-answer" placeholder="Type your answer here...">`;
             break;
         // Note: Drag/Drop and Matching require complex custom drag logic. 
+        case 'multi_mcq':
+            // Pilihan Ganda Centang (Multi-Check)
+            html += `<p style="font-size:0.95rem; color:#666; margin-bottom:10px;"><i>Select all correct answers!</i></p>`;
+            html += `<div class="checkbox-group" style="display:flex; flex-direction:column; gap:10px;">`;
+            qData.options.forEach(opt => {
+                html += `
+                    <label style="display:flex; align-items:center; gap:10px; font-size:1.1rem; cursor:pointer; background:#f5f5f5; padding:12px; border-radius:10px; border:2px solid #ccc;">
+                        <input type="checkbox" name="multi-opt" value="${opt}" style="width:20px; height:20px; cursor:pointer;">
+                        <span>${opt}</span>
+                    </label>
+                `;
+            });
+            html += `</div>`;
+            break;
         case 'matching':
             let leftItems = qData.pairs.map(p => p.left);
             let rightItems = qData.pairs.map(p => p.right);
@@ -202,6 +216,7 @@ function checkAnswer() {
         }
         actualAnswer = userSelectedAnswer;
         isCorrect = (actualAnswer.toString().toLowerCase() === qData.answer.toString().toLowerCase());
+        
     } else if (qData.type === 'long') {
         // CEK SOAL ESAI (Kata Kunci)
         const input = document.getElementById('text-answer');
@@ -215,6 +230,26 @@ function checkAnswer() {
         } else {
             isCorrect = actualAnswer.includes(qData.answer.toString().toLowerCase());
         }
+        
+    } else if (qData.type === 'multi_mcq') {
+        // CEK SOAL MULTI CHECKBOX (Diperbaiki: menggunakan qData)
+        const checkedBoxes = Array.from(document.querySelectorAll('input[name="multi-opt"]:checked')).map(cb => cb.value);
+        
+        if (checkedBoxes.length === 0) {
+            alert("Please select at least one option! (Pilih minimal satu jawaban!)");
+            return;
+        }
+
+        // Urutkan array agar urutan centang tidak mempengaruhi penilaian
+        const userAnswers = checkedBoxes.sort();
+        const correctAnswers = Array.from(qData.answer).sort();
+
+        // Cek apakah semua pilihan user sama persis dengan kunci jawaban
+        isCorrect = userAnswers.length === correctAnswers.length && 
+                    userAnswers.every((val, index) => val === correctAnswers[index]);
+        
+        actualAnswer = "Checkboxes";
+        
     } else if (qData.type === 'matching') {
         // CEK SOAL MATCHING
         if (!window.currentMatchConnections || Object.keys(window.currentMatchConnections).length < qData.pairs.length) {
@@ -238,6 +273,7 @@ function checkAnswer() {
         actualAnswer = "Check connections";
     
     } else if (qData.type === 'fill_letters') {
+        // CEK SOAL TEBAK HURUF
         if (Object.keys(window.userFilled).length < qData.blanks.length) {
             alert("Please fill all the blanks! (Ketuk huruf di bawah untuk mengisi kotak yang kosong)");
             return;
@@ -251,7 +287,9 @@ function checkAnswer() {
         }
         isCorrect = allCorrect;
         actualAnswer = "Check letters";
+        
     } else {
+        // CEK SOAL SHORT ANSWER
         const input = document.getElementById('text-answer');
         if (!input || input.value.trim() === "") { alert("Please enter an answer!"); return; }
         actualAnswer = input.value.trim();
@@ -262,13 +300,19 @@ function checkAnswer() {
         }
     }
 
+    // --- MASTER FEEDBACK HANDLER ---
     feedback.className = 'feedback-area ' + (isCorrect ? 'correct' : 'incorrect');
+    // MAINKAN EFEK SUARA DI SINI
+    playSound(isCorrect);
     
     if (isCorrect) {
         feedback.innerHTML = "🌟 Correct! Great job!";
         if (!isRetryMode) score++; 
     } else {
-        feedback.innerHTML = `❌ Oops! That's incorrect. ${isRetryMode ? `<br>Correct Answer: ${Array.isArray(qData.answer) ? qData.answer[0] : qData.answer}` : ''}`;
+        // Tampilkan jawaban yang benar (mendukung array untuk multi_mcq)
+        let correctText = Array.isArray(qData.answer) ? qData.answer.join(", ") : qData.answer;
+        feedback.innerHTML = `❌ Oops! That's incorrect. ${isRetryMode ? `<br>Correct Answer: ${correctText}` : ''}`;
+        
         if (!isRetryMode && !incorrectQuestions.includes(realIndex)) {
             incorrectQuestions.push(realIndex);
         }
@@ -477,5 +521,54 @@ function removeLetter(slotIndex) {
         
         // Munculkan kembali huruf di baki bawah
         document.getElementById(`tray-${trayIndex}`).classList.remove('hidden');
+    }
+}
+// --- FUNGSI SUARA (TEXT-TO-SPEECH) ---
+function speakText(text, lang = 'en-US') {
+    if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel(); // Hentikan suara yang sedang berjalan (jika ada)
+        const msg = new SpeechSynthesisUtterance(text);
+        msg.lang = lang; // Bahasa Inggris (en-US)
+        msg.rate = 0.8;  // Diperlambat sedikit agar anak-anak jelas mendengarnya
+        msg.pitch = 1.2; // Suara dibuat agak tinggi/imut
+        window.speechSynthesis.speak(msg);
+    } else {
+        alert("Maaf, suara tidak didukung di perangkat/browser ini.");
+    }
+}
+// --- FUNGSI EFEK SUARA (SOUND EFFECTS) ---
+function playSound(isCorrect) {
+    try {
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
+        if (!AudioContext) return;
+        
+        const ctx = new AudioContext();
+        const osc = ctx.createOscillator();
+        const gainNode = ctx.createGain();
+        
+        osc.connect(gainNode);
+        gainNode.connect(ctx.destination);
+        
+        if (isCorrect) {
+            // Suara "DING-DING!" bahagia (Correct)
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(523.25, ctx.currentTime); // Nada C
+            osc.frequency.setValueAtTime(659.25, ctx.currentTime + 0.1); // Nada E
+            gainNode.gain.setValueAtTime(1, ctx.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.5);
+            osc.start();
+            osc.stop(ctx.currentTime + 0.5);
+        } else {
+            // Suara "BUZZ" sedih (Incorrect)
+            osc.type = 'sawtooth';
+            osc.frequency.setValueAtTime(150, ctx.currentTime);
+            osc.frequency.linearRampToValueAtTime(100, ctx.currentTime + 0.3);
+            gainNode.gain.setValueAtTime(0.3, ctx.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.3);
+            osc.start();
+            osc.stop(ctx.currentTime + 0.3);
+        }
+    } catch (e) {
+        console.log("Audio API tidak didukung di perangkat ini.");
     }
 }

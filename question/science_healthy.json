@@ -1,0 +1,116 @@
+{
+    "title": "Science: Being Healthy 🍎",
+    "summary": "<b>1. Healthy Diet & Water:</b><br>To keep our bodies healthy, we need to eat a <b>healthy diet</b> and drink plenty of <b>water</b>.<br><br><b>2. Exercise, Rest & Sleep:</b><br>🏃‍♀️ <b>Exercise:</b> When we exercise, our heart beats faster, we breathe faster, and we sweat.<br>🛌 <b>Rest & Sleep:</b> After an active day, our body needs enough rest and sleep to get its energy back.<br><br><b>3. Our Teeth:</b><br>We use our teeth to <b>chew</b> food. There are 3 types of teeth:<br>🦷 <b>Incisors:</b> To <i>cut</i> food.<br>🧛 <b>Canines:</b> To <i>tear</i> food.<br>🍔 <b>Molars:</b> To <i>chew</i> and <i>grind</i> food.<br>A newborn <b>baby</b> has no teeth. Young children have <b>milk teeth</b>. When they grow older, these fall out and are replaced by <b>permanent teeth</b>.<br><br><b>4. Keeping Clean:</b><br>To stay healthy, we must wash and <b>bathe</b>, <b>brush</b> our teeth, and cut our <b>nails</b>.<br><br><b>5. Are you ill?:</b><br>Having a fever or a bad cough are <b>signs of illness</b>. Wear a <b>mask</b> when you are ill so germs do not spread!",
+    "questions": [
+        {
+            "type": "mcq",
+            "questionText": "Select the correct words: We can take care of our teeth by brushing them...",
+            "options": ["two times a day", "two times a week", "one time a month", "only when they hurt"],
+            "answer": "two times a day",
+            "hint": "You should brush your teeth in the morning and before bed!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "What happens to our body when we do EXERCISE (like running and jumping)?",
+            "options": ["Our heart beats faster and we sweat", "Our body gets very cold", "We feel sleepy and tired", "Our heart stops beating"],
+            "answer": "Our heart beats faster and we sweat",
+            "hint": "Think about how you feel after running around the playground."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Are you ill? Which of these is a SIGN OF ILLNESS?",
+            "options": ["Having a fever and a cough", "Playing happily with friends", "Eating a healthy diet", "Growing permanent teeth"],
+            "answer": "Having a fever and a cough",
+            "hint": "These signs show that your body is fighting germs."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the types of teeth with their jobs!",
+            "pairs": [
+                {"left": "🦷 Incisors", "right": "To CUT food"},
+                {"left": "🧛 Canines", "right": "To TEAR food"},
+                {"left": "🍔 Molars", "right": "To CHEW and GRIND food"}
+            ],
+            "hint": "Incisors are at the front, canines are sharp, and molars are big teeth at the back."
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters! To keep our teeth clean, we must ______ them twice a day.",
+            "word": "BRUSH",
+            "blanks": [0, 2, 4],
+            "hint": "Type: BRUSH"
+        },
+        {
+            "type": "short",
+            "questionText": "When you are ill and have a bad cough, you should wear a M _ _ _ to cover your mouth and nose.",
+            "answer": ["mask", "Mask"],
+            "hint": "Type: mask"
+        },
+        {
+            "type": "short",
+            "questionText": "A young infant is called a B _ _ _. They usually have no teeth yet when they are born!",
+            "answer": ["baby", "Baby"],
+            "hint": "Type: baby"
+        },
+        {
+            "type": "short",
+            "questionText": "We use our teeth to C _ _ _ the food inside our mouth before we swallow it.",
+            "answer": ["chew", "Chew"],
+            "hint": "Type: chew"
+        },
+        {
+            "type": "short",
+            "questionText": "The first set of teeth a young child gets is called M _ _ _ teeth.",
+            "answer": ["milk", "Milk"],
+            "hint": "Type: milk"
+        },
+        {
+            "type": "short",
+            "questionText": "When the first teeth fall out, we grow P _ _ _ _ _ _ _ _ teeth that will stay with us forever.",
+            "answer": ["permanent", "Permanent"],
+            "hint": "Type: permanent"
+        },
+        {
+            "type": "short",
+            "questionText": "Eating the right amount of good food every day means having a healthy D _ _ _.",
+            "answer": ["diet", "Diet"],
+            "hint": "Type: diet"
+        },
+        {
+            "type": "short",
+            "questionText": "To keep our body clean and smell good, we must wash with soap and B _ _ _ _ every day.",
+            "answer": ["bathe", "Bathe", "bath", "Bath"],
+            "hint": "Type: bathe"
+        },
+        {
+            "type": "short",
+            "questionText": "Don't forget to cut your N _ _ _ _ when they get long and dirty!",
+            "answer": ["nails", "Nails"],
+            "hint": "Type: nails"
+        },
+        {
+            "type": "short",
+            "questionText": "After playing and studying all day, our body needs R _ _ _ to get our energy back.",
+            "answer": ["rest", "Rest"],
+            "hint": "Type: rest"
+        },
+        {
+            "type": "short",
+            "questionText": "At night, we must get enough S _ _ _ _ so we wake up fresh in the morning.",
+            "answer": ["sleep", "Sleep"],
+            "hint": "Type: sleep"
+        },
+        {
+            "type": "short",
+            "questionText": "If we feel very thirsty after running, we must drink plenty of W _ _ _ _.",
+            "answer": ["water", "Water"],
+            "hint": "Type: water"
+        },
+        {
+            "type": "long",
+            "questionText": "Having a fever, coughing, and sneezing are called 'S_ _ _ _  of  I_ _ _ _ _ _'. Write the words!",
+            "answer": ["signs of illness", "signs", "illness", "sign"],
+            "hint": "Write the phrase: signs of illness"
+        }
+    ]
+}

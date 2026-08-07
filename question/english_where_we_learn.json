@@ -1,0 +1,157 @@
+{
+    "title": "English: Where do we learn? 🏫",
+    "summary": "<b>1. Verbs for He, She, It:</b><br>When we talk about <b>He</b>, <b>She</b>, or <b>It</b>, we add <b>-s</b>, <b>-es</b>, or <b>-ies</b> to the action word.<br>• I go ➔ He <b>goes</b><br>• We do ➔ She <b>does</b><br>• They play ➔ It <b>plays</b><br><br><b>2. Short Forms:</b><br>We can make words shorter by using an apostrophe ( ' ).<br>• It is ➔ <b>It's</b><br>• Is not ➔ <b>Isn't</b><br>• Do not ➔ <b>Don't</b><br>• Does not ➔ <b>Doesn't</b><br><br><b>3. This, That, These, Those:</b><br>• <b>This</b> (one thing, close to you)<br>• <b>That</b> (one thing, far away)<br>• <b>These</b> (many things, close to you)<br>• <b>Those</b> (many things, far away)<br><br><b>4. Capital Letters:</b><br>Always use a big letter (Uppercase) for the word <b>I</b>, the beginning of a sentence, days of the week, and names of school subjects.<br><br><b>5. Classroom Words:</b><br>Things we see at <b>school</b>: <b>Board</b> (teacher writes here), <b>Desk</b> and <b>Chair</b> (where you sit), <b>Pencil</b>, <b>Book</b>, <b>Ruler</b>, and <b>Backpack</b>.<br><br><b>6. School Lessons & Objects:</b><br>• <b>Maths:</b> Numbers and calculators.<br>• <b>English:</b> Reading books and dictionaries.<br>• <b>Science:</b> Plants and magnifying glasses.<br>• <b>Art:</b> Drawing and painting.<br>• <b>Music:</b> Singing and playing piano.<br>• <b>PE:</b> Running and playing sports.<br>• <b>Citizenship:</b> Rules and community.",
+    "questions": [
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the classroom word!",
+            "word": "BOARD",
+            "blanks": [1, 2],
+            "hint": "The teacher writes on the white B _ _ R D."
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the classroom word!",
+            "word": "CHAIR",
+            "blanks": [1, 3],
+            "hint": "You sit on this at your desk."
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the classroom word!",
+            "word": "DESK",
+            "blanks": [1, 2],
+            "hint": "You put your books and pencil on your D _ _ K."
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the classroom word!",
+            "word": "PENCIL",
+            "blanks": [1, 4],
+            "hint": "You use this to write or draw."
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the school word!",
+            "word": "SCHOOL",
+            "blanks": [2, 3],
+            "hint": "The place where we go to learn."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct verb: Every morning, she ______ to school.",
+            "options": ["go", "goes", "going", "gos"],
+            "answer": "goes",
+            "hint": "For 'she', we add -es to the word 'go'."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct verb: He ______ his homework in the evening.",
+            "options": ["do", "dos", "does", "doing"],
+            "answer": "does",
+            "hint": "For 'he', we add -es to the word 'do'."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct verb: The cat ______ with the ball.",
+            "options": ["play", "plays", "playing", "playes"],
+            "answer": "plays",
+            "hint": "For 'it' (the cat), we add -s to the word 'play'."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct verb: She ______ her hands before eating.",
+            "options": ["wash", "washes", "washing", "washs"],
+            "answer": "washes",
+            "hint": "Words ending in 'sh' need '-es' when used with she."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the words to make them shorter! (Short Forms)",
+            "pairs": [
+                {"left": "It is", "right": "It's"},
+                {"left": "Is not", "right": "Isn't"},
+                {"left": "Do not", "right": "Don't"},
+                {"left": "Does not", "right": "Doesn't"}
+            ],
+            "hint": "Find the word with the apostrophe ( ' ) that means the same thing."
+        },
+        {
+            "type": "short",
+            "questionText": "Make this word shorter using an apostrophe: <b>It is</b>",
+            "answer": ["It's", "it's", "It's "],
+            "hint": "Type: It's"
+        },
+        {
+            "type": "short",
+            "questionText": "Make this word shorter using an apostrophe: <b>Is not</b>",
+            "answer": ["Isn't", "isn't", "Isn't "],
+            "hint": "Type: Isn't"
+        },
+        {
+            "type": "short",
+            "questionText": "Correct the sentence using Uppercase (Capital Letters): <b>i like english.</b>",
+            "answer": ["I like English.", "I like English"],
+            "hint": "The letter 'I' and the subject 'English' must be capital! Do not forget the full stop."
+        },
+        {
+            "type": "short",
+            "questionText": "Correct the sentence using Uppercase: <b>we play on monday.</b>",
+            "answer": ["We play on Monday.", "We play on Monday"],
+            "hint": "The first letter (W) and the day of the week (M) must be capital!"
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the classroom words with their pictures!",
+            "pairs": [
+                {"left": "Pencil", "right": "✏️"},
+                {"left": "Book", "right": "📖"},
+                {"left": "Ruler", "right": "📏"},
+                {"left": "Backpack", "right": "🎒"}
+            ],
+            "hint": "Look at the emojis carefully!"
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the school lessons with what we do!",
+            "pairs": [
+                {"left": "Maths", "right": "Working with numbers"},
+                {"left": "PE", "right": "Running and playing sports"},
+                {"left": "Art", "right": "Drawing and painting"},
+                {"left": "Music", "right": "Singing and playing piano"}
+            ],
+            "hint": "PE stands for Physical Education (Sports)."
+        },
+        {
+            "type": "matching",
+            "questionText": "What do we use in these lessons? Match them up!",
+            "pairs": [
+                {"left": "Science", "right": "Magnifying glass and plants"},
+                {"left": "English", "right": "A dictionary and reading books"},
+                {"left": "Maths", "right": "A calculator and numbers"},
+                {"left": "Citizenship", "right": "Learning about rules and community"}
+            ],
+            "hint": "Citizenship is about being a good person in our community."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the book IN MY HAND. ______ book is very interesting.",
+            "options": ["This", "That", "These", "Those"],
+            "answer": "This",
+            "hint": "It is ONE book, and it is CLOSE to you."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the birds FAR AWAY in the sky! ______ birds are flying high.",
+            "options": ["This", "That", "These", "Those"],
+            "answer": "Those",
+            "hint": "There are MANY birds, and they are FAR away."
+        },
+        {
+            "type": "long",
+            "questionText": "What is your favorite subject at school? Write a full sentence. (Example: My favorite subject is Art.)",
+            "answer": ["favorite", "subject", "is", "Maths", "English", "Science", "PE", "Art", "Music", "like", "my"],
+            "hint": "Start your sentence with 'My favorite subject is...'"
+        }
+    ]
+}

@@ -229,7 +229,7 @@
         },
         {
             "type": "short",
-            "questionText": "Make the short word using an apostrophe: He has",
+            "questionText": "Make the short word using an apostrophe: He is",
             "answer": ["He's", "he's"],
             "hint": "Combine them! It looks just like 'He is'."
         },

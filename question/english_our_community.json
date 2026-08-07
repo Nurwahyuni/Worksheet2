@@ -1,0 +1,174 @@
+{
+    "title": "English: Our Community 🏘️",
+    "summary": "<b>1. Places in Our Community:</b><br>Our town has many places! A <b>Cinema</b> (to watch movies), <b>Restaurant</b> or <b>Cafe</b> (to eat), <b>Sports centre</b> (to play sports), <b>Mall</b> (a big shopping centre), <b>Park</b> (to play outside), <b>Fire station</b> (for fire engines), <b>Hospital</b> (for sick people), <b>Supermarket</b> (to buy food), <b>Toy shop</b>, <b>Shoe shop</b>, and a <b>Library</b> (to read books).<br><br><b>2. Prepositions of Place (Where is it?):</b><br>• <b>In:</b> Inside something.<br>• <b>On:</b> On top of something.<br>• <b>Behind:</b> At the back.<br>• <b>In front of:</b> Facing something.<br>• <b>Beside:</b> Next to something.<br>• <b>Between:</b> In the middle of two things.<br><br><b>3. There is / There are:</b><br>• Use <b>There is</b> for ONE thing (<i>There is a park</i>).<br>• Use <b>There are</b> for MORE THAN ONE thing (<i>There are two cafes</i>).<br><br><b>4. Giving Directions:</b><br>To help people find a place, we can say: <b>Turn left</b>, <b>Turn right</b>, or <b>Go straight on</b>.",
+    "questions": [
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the word! You watch movies here.",
+            "word": "CINEMA",
+            "blanks": [1, 4],
+            "hint": "C _ N E _ A"
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the word! You go here when you are sick.",
+            "word": "HOSPITAL",
+            "blanks": [1, 4, 6],
+            "hint": "H _ S P _ T _ L"
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the word! You read books here.",
+            "word": "LIBRARY",
+            "blanks": [2, 5],
+            "hint": "L I _ R A _ Y"
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the word! A nice place to drink hot chocolate or tea.",
+            "word": "CAFE",
+            "blanks": [1, 2],
+            "hint": "C _ _ E"
+        },
+        {
+            "type": "short",
+            "questionText": "Rearrange the letters to make a place in the community: <b>p k a r</b>",
+            "answer": ["park", "Park"],
+            "hint": "A place with trees and grass where you can play."
+        },
+        {
+            "type": "short",
+            "questionText": "Rearrange the letters to make a place in the community: <b>m l l a</b>",
+            "answer": ["mall", "Mall"],
+            "hint": "A very big building with many shops inside."
+        },
+        {
+            "type": "short",
+            "questionText": "Rearrange the letters to make a place: <b>y o t  p o h s</b>",
+            "answer": ["toy shop", "Toy shop", "toyshop"],
+            "hint": "A place where you buy dolls, cars, and blocks."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct words: ______ a big hospital in my town.",
+            "options": ["There is", "There are", "Is there", "Are there"],
+            "answer": "There is",
+            "hint": "We are talking about ONE hospital."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct words: ______ three supermarkets on this street.",
+            "options": ["There is", "There are", "Is there", "Are there"],
+            "answer": "There are",
+            "hint": "We are talking about THREE supermarkets (more than one)."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct words: Look! ______ a fire station next to the park.",
+            "options": ["There is", "There are", "There", "Is"],
+            "answer": "There is",
+            "hint": "A fire station means ONE fire station."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct words: ______ many books in the library.",
+            "options": ["There is", "There are", "This is", "That is"],
+            "answer": "There are",
+            "hint": "'Many books' means more than one."
+        },
+        {
+            "type": "mcq",
+            "questionText": "The cinema is ______ the cafe and the toy shop.",
+            "options": ["between", "in", "on", "behind"],
+            "answer": "between",
+            "hint": "It is in the middle of the two places."
+        },
+        {
+            "type": "mcq",
+            "questionText": "The car is hiding at the back of the house. The car is ______ the house.",
+            "options": ["in front of", "behind", "on", "in"],
+            "answer": "behind",
+            "hint": "The opposite of 'in front of'."
+        },
+        {
+            "type": "mcq",
+            "questionText": "To find the hospital, do not turn left. You must turn ______!",
+            "options": ["right", "straight", "on", "behind"],
+            "answer": "right",
+            "hint": "The opposite of left."
+        },
+        {
+            "type": "mcq",
+            "questionText": "To go to the mall, just go ______ on.",
+            "options": ["left", "right", "straight", "behind"],
+            "answer": "straight",
+            "hint": "Keep walking forward."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the prepositions to their meanings!",
+            "pairs": [
+                {"left": "Between", "right": "In the middle"},
+                {"left": "Behind", "right": "At the back"},
+                {"left": "In front of", "right": "Facing something"},
+                {"left": "Beside", "right": "Next to"}
+            ],
+            "hint": "Think about where things are placed."
+        },
+        {
+            "type": "matching",
+            "questionText": "Where do you go? Match the action to the place!",
+            "pairs": [
+                {"left": "Watch a movie", "right": "Cinema"},
+                {"left": "Buy new shoes", "right": "Shoe shop"},
+                {"left": "See a fire engine", "right": "Fire station"},
+                {"left": "Play basketball", "right": "Sports centre"}
+            ],
+            "hint": "Think about what you do in these places."
+        },
+        {
+            "type": "matching",
+            "questionText": "Where do you go? Match the action to the place!",
+            "pairs": [
+                {"left": "Eat dinner", "right": "Restaurant"},
+                {"left": "Buy food and groceries", "right": "Supermarket"},
+                {"left": "Read quiet books", "right": "Library"},
+                {"left": "Play on the slide", "right": "Park"}
+            ],
+            "hint": "Groceries means food you buy to cook at home."
+        },
+        {
+            "type": "short",
+            "questionText": "I sit ______ a chair. (Choose: in / on / between)",
+            "answer": ["on", "On"],
+            "hint": "You sit on top of it."
+        },
+        {
+            "type": "short",
+            "questionText": "I put my pencil ______ my pencil case. (Choose: in / on / behind)",
+            "answer": ["in", "In"],
+            "hint": "You put it inside."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick all the correct sentences! Which ones use 'There is' and 'There are' correctly?",
+            "options": [
+                "There is a big mall in the city.",
+                "There are a dog in the park.",
+                "There are two shoe shops.",
+                "There is many books."
+            ],
+            "answer": [
+                "There is a big mall in the city.",
+                "There are two shoe shops."
+            ],
+            "hint": "Remember: 'There is' for one, 'There are' for many."
+        },
+        {
+            "type": "long",
+            "questionText": "What is your favorite place in your community? Write a full sentence. (Example: My favorite place is the park.)",
+            "answer": ["favorite", "place", "is", "park", "cinema", "mall", "toy shop", "cafe", "restaurant"],
+            "hint": "Start your sentence with 'My favorite place is...'"
+        }
+    ]
+}

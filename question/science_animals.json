@@ -1,0 +1,162 @@
+{
+    "title": "Science: Animals 🦁",
+    "summary": "<b>1. Animal Body Parts (Bagian Tubuh):</b><br><b>Head</b> (Kepala), <b>Body</b> (Badan), <b>Leg & Foot</b> (Kaki), <b>Tail</b> (Ekor), <b>Wings</b> (Sayap), <b>Beak</b> (Paruh), dan <b>Fins</b> (Sirip).<br><br><b>2. Skin Coverings (Penutup Tubuh):</b><br>Untuk melindungi diri (<i>safe</i>) dan tetap hangat (<i>warm</i>).<br>🐻 <b>Fur:</b> Lion, Bear, Cat.<br>🦩 <b>Feathers:</b> Flamingo, Duck.<br>🐍 <b>Scales:</b> Snake, Fish.<br>🦔 <b>Spikes:</b> Hedgehog.<br><br><b>3. Babies & Growth (Pertumbuhan):</b><br>Bertelur (<i>lay eggs</i>) atau melahirkan (<i>give birth</i>). Bayi hewan (<i>young</i>) akan tumbuh (<i>grow</i>) dan berubah (<i>change</i>).<br><br><b>4. Survival Needs (Kebutuhan Hidup):</b><br>Agar bisa hidup, hewan butuh <b>Food</b> (Makanan), <b>Water</b> (Air), <b>Air</b> (Udara), dan <b>Shelter</b> (Tempat berlindung yang aman).<br><br><b>5. Animal Diets (Makanan Hewan):</b><br>🥩 <b>Carnivore:</b> Meat eater (Pemakan daging. Cth: Lion, Tiger).<br>🌿 <b>Herbivore:</b> Plant eater (Pemakan tumbuhan. Cth: Cow, Elephant).<br>🍎🥩 <b>Omnivore:</b> Eats both (Makan keduanya. Cth: Bear, Human).<br><br><b>6. Special Groups:</b><br>🐜 <b>Insects (Serangga):</b> Memiliki 6 kaki (6 legs).<br>🐄 <b>Mammals (Mamalia):</b> Memiliki rambut/bulu (fur) dan minum susu (drink milk).",
+    "questions": [
+        {
+            "type": "mcq",
+            "questionText": "Birds and flamingos have ______ as their skin covering.",
+            "options": ["Fur", "Scales", "Feathers", "Spikes"],
+            "answer": "Feathers",
+            "hint": "Feathers = Bulu burung."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Bears and lions have ______ as their skin covering.",
+            "options": ["Fur", "Scales", "Feathers", "Spikes"],
+            "answer": "Fur",
+            "hint": "Fur = Bulu rambut yang tebal."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Young animals go through changes as they ______.",
+            "options": ["sleep", "grow", "fly", "hide"],
+            "answer": "grow",
+            "hint": "Grow = Tumbuh menjadi lebih besar."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Why do animals have skin coverings? All of these are correct, EXCEPT... (Kecuali...)",
+            "options": ["To stay warm (Tetap hangat)", "To stay safe (Tetap aman)", "To get sick (Menjadi sakit)", "To hide from danger (Sembunyi)"],
+            "answer": "To get sick (Menjadi sakit)",
+            "hint": "Cari jawaban yang BURUK atau SALAH (Except = Kecuali)."
+        },
+        {
+            "type": "mcq",
+            "questionText": "What do all animals need to survive? (Apa yang dibutuhkan hewan untuk hidup?)",
+            "options": ["Toys and books", "Food, water, air, and shelter", "Only water", "Candy and chocolate"],
+            "answer": "Food, water, air, and shelter",
+            "hint": "Hewan butuh hal yang sama seperti manusia untuk hidup."
+        },
+        {
+            "type": "mcq",
+            "questionText": "A cow eats grass and leaves. What do we call a plant-eater?",
+            "options": ["Carnivore", "Herbivore", "Omnivore", "Insect"],
+            "answer": "Herbivore",
+            "hint": "Herb = Tumbuhan."
+        },
+        {
+            "type": "mcq",
+            "questionText": "A tiger eats meat. What do we call a meat-eater?",
+            "options": ["Carnivore", "Herbivore", "Omnivore", "Mammal"],
+            "answer": "Carnivore",
+            "hint": "Carnivore = Pemakan daging."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the animal to its skin covering! (Tarik garis ke penutup kulitnya)",
+            "pairs": [
+                {"left": "🐍 Snake", "right": "Scales"},
+                {"left": "🦁 Lion", "right": "Fur"},
+                {"left": "🦔 Hedgehog", "right": "Spikes"},
+                {"left": "🦩 Flamingo", "right": "Feathers"}
+            ],
+            "hint": "Hedgehog (Landak) kulitnya tajam lho!"
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the animal to its special body parts! (Tarik garis ke bagian tubuhnya)",
+            "pairs": [
+                {"left": "🦅 Bird", "right": "Wings and Beak"},
+                {"left": "🐟 Fish", "right": "Fins"},
+                {"left": "🐎 Horse", "right": "4 Legs and a long tail"}
+            ],
+            "hint": "Beak = Paruh, Fins = Sirip."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the baby animal to its parent! (I look like my parent!)",
+            "pairs": [
+                {"left": "🐶 Puppy", "right": "Dog"},
+                {"left": "🐱 Kitten", "right": "Cat"},
+                {"left": "🐥 Chick", "right": "Chicken"}
+            ],
+            "hint": "Puppy adalah anak anjing, Kitten adalah anak kucing."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the animals with what they eat!",
+            "pairs": [
+                {"left": "Cow (Sapi)", "right": "Herbivore (Plants)"},
+                {"left": "Lion (Singa)", "right": "Carnivore (Meat)"},
+                {"left": "Bear (Beruang)", "right": "Omnivore (Both)"}
+            ],
+            "hint": "Ingat catatan materi tentang Makanan Hewan."
+        },
+        {
+            "type": "short",
+            "questionText": "Fill in the blank: Fish use their ______ to swim in the water.",
+            "answer": ["fins", "Fins"],
+            "hint": "Ketik: fins (artinya sirip)."
+        },
+        {
+            "type": "short",
+            "questionText": "Fill in the blank: A bird uses its ______ to fly in the sky.",
+            "answer": ["wings", "Wings"],
+            "hint": "Ketik: wings (artinya sayap)."
+        },
+        {
+            "type": "short",
+            "questionText": "Fill in the blank: A snake and a fish have ______ on their skin.",
+            "answer": ["scales", "Scales"],
+            "hint": "Ketik: scales (artinya sisik)."
+        },
+        {
+            "type": "short",
+            "questionText": "Fill in the blank: A mother hen lays ______ in her nest.",
+            "answer": ["eggs", "Eggs"],
+            "hint": "Ketik: eggs (artinya telur)."
+        },
+        {
+            "type": "short",
+            "questionText": "Fill in the blank: Animals that do not lay eggs will give ______ to their babies.",
+            "answer": ["birth", "Birth"],
+            "hint": "Ketik: birth (artinya melahirkan)."
+        },
+        {
+            "type": "short",
+            "questionText": "Fill in the blank: A baby animal is also called the ______ animal.",
+            "answer": ["young", "Young"],
+            "hint": "Ketik: young (artinya muda/bayi)."
+        },
+        {
+            "type": "short",
+            "questionText": "An ant is an Insect (Serangga). How many legs does an insect have? (Ketik angkanya)",
+            "answer": ["6", "six", "Six"],
+            "hint": "Jumlah kaki serangga lebih banyak dari kucing, tapi kurang dari laba-laba."
+        },
+        {
+            "type": "short",
+            "questionText": "Animals that have fur and drink milk are called M _ _ _ _ _ S.",
+            "answer": ["Mammals", "mammals"],
+            "hint": "Ketik kata utuhnya: mammals (mamalia)."
+        },
+        {
+            "type": "long",
+            "questionText": "What does a Hedgehog have on its back to protect it from danger?",
+            "answer": ["spike", "spikes"],
+            "hint": "Ketik kata yang mengandung: spikes (duri)."
+        },
+        {
+            "type": "long",
+            "questionText": "Animals need a 'Shelter' (Tempat berlindung). Why do they need a shelter?",
+            "answer": ["safe", "protect", "warm", "aman", "lindung", "danger"],
+            "hint": "Tulis kalimat yang mengandung kata 'safe' (aman) atau 'protect' (melindungi)."
+        },
+        {
+            "type": "long",
+            "questionText": "Do baby animals stay the same? No, they ______ as they grow older.",
+            "answer": ["change"],
+            "hint": "Ketik kata: change (berubah)."
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "title": "Playgroup: English with Sound! 🔊",
+    "summary": "<b>Hello! Let's learn English!</b><br><br>Nanti di dalam kuis, minta Adik untuk <b>memencet tombol 🔊</b> agar iPad membacakan kata bahasa Inggrisnya, lalu pilih gambar yang tepat ya!",
+    "questions": [
+        {
+            "type": "mcq",
+            "questionText": "Pencet tombol ini ➔ <button class='sound-btn' onclick=\"speakText('Cat', 'en-US')\">🔊 Cat</button><br><br>Gambar manakah itu?",
+            "options": ["🐶", "🐱", "🐰", "🦆"],
+            "answer": "🐱",
+            "hint": "Cat adalah Kucing!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Pencet tombol ini ➔ <button class='sound-btn' onclick=\"speakText('Dog', 'en-US')\">🔊 Dog</button><br><br>Gambar manakah itu?",
+            "options": ["🐱", "🐮", "🐶", "🦁"],
+            "answer": "🐶",
+            "hint": "Dog adalah Anjing!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Pencet tombol ini ➔ <button class='sound-btn' onclick=\"speakText('Duck', 'en-US')\">🔊 Duck</button><br><br>Gambar manakah itu?",
+            "options": ["🦆", "🦅", "🦉", "🐥"],
+            "answer": "🦆",
+            "hint": "Duck adalah Bebek!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Pencet tombol ini ➔ <button class='sound-btn' onclick=\"speakText('Apple', 'en-US')\">🔊 Apple</button><br><br>Buah manakah itu?",
+            "options": ["🍌", "🍓", "🍉", "🍎"],
+            "answer": "🍎",
+            "hint": "Apple warnanya merah!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Pencet tombol ini ➔ <button class='sound-btn' onclick=\"speakText('Banana', 'en-US')\">🔊 Banana</button><br><br>Buah manakah itu?",
+            "options": ["🍎", "🍇", "🍌", "🍒"],
+            "answer": "🍌",
+            "hint": "Banana warnanya kuning!"
+        },
+        {
+            "type": "matching",
+            "questionText": "Tarik garis ya! (Pencet gambar hewannya, lalu cari bahasa Inggrisnya)",
+            "pairs": [
+                {"left": "🐮", "right": "Cow"},
+                {"left": "🐒", "right": "Monkey"},
+                {"left": "🐘", "right": "Elephant"}
+            ],
+            "hint": "Cow (Sapi), Monkey (Monyet), Elephant (Gajah)."
+        }
+    ]
+}

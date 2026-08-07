@@ -22,7 +22,23 @@
             <div id="setup-screen" class="screen active">
                 <h2>Welcome to your Worksheet!</h2>
                 <p>Select a topic to start learning.</p>
-                
+                <!-- KELOMPOK PLAYGROUP (4 TAHUN) -->
+                <details class="grade-details">
+                    <!-- Menggunakan warna ungu muda / lilac untuk anak-anak -->
+                    <summary class="grade-summary" style="background: #D8B4E2;">🧸 Playgroup (4 Tahun)</summary>
+                    
+                    <div class="grade-content">
+                        <!-- Kategori Mengenal Dunia -->
+                        <details class="subject-details" open>
+                            <summary class="subject-summary" style="background: #F9E79F; color: #333;">🎨 Bermain & Belajar</summary>
+                            <div class="topic-list">
+                                <button class="topic-btn" onclick="loadWorksheet('question/playgroup_hewan_warna.json')">Mengenal Hewan & Warna 🌈</button>
+                                <!-- TOMBOL BARU DITAMBAHKAN DI SINI -->
+                <button class="topic-btn" onclick="loadWorksheet('question/playgroup_english_sound.json')">English with Sound! (Hewan & Buah) 🔊</button>
+                            </div>
+                        </details>
+                    </div>
+                </details>
                 <details class="grade-details" open>
                     <summary class="grade-summary">🎓 Grade 2</summary>
                     
@@ -46,7 +62,33 @@
                     <details class="subject-details">
                         <summary class="subject-summary" style="background: var(--success);">📙 English</summary>
                         <div class="topic-list">
-                            <button class="topic-btn" onclick="loadWorksheet('question/english-feeling.json')">Fellings</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/english-feeling.json')">😊 Fellings</button>
+                            <!-- Topik Baru -->
+                            <button class="topic-btn" onclick="loadWorksheet('question/english_where_we_learn.json')">🏫 Where do we learn</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/english_our_community.json')">🏘️ Our community</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/english_weather.json')">⛅ Weather</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/english_clothes.json')">👕 Clothes</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/english_rainforest.json')">🌴 The rainforest</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/english_food.json')">🍔 Food</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/english_be_active.json')">🏃 Let's be active</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/english_space.json')">🚀 Space</button>
+                        </div>
+                    </details>
+                    <!-- Science Category -->
+                    <!-- Science Category -->
+                    <details class="subject-details">
+                        <summary class="subject-summary" style="background: #48C9B0; color: #111;">🔬 Science</summary>
+                        <div class="topic-list">
+                            <button class="topic-btn" onclick="loadWorksheet('question/science_animals.json')">🦁 Animals</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/science_healthy.json')">🍎 Being Healthy</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/science_habitats.json')">🏕️ Habitats</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/science_materials.json')">🧱 Materials</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/science_forces.json')">🧲 Forces</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/science_light_darkness.json')">🔦 Light and Darkness</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/science_electricity.json')">⚡ More about Electricity</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/science_rocks.json')">🪨 Rocks</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/science_environment.json')">🌍 Changes to our Environment</button>
+                            <button class="topic-btn" onclick="loadWorksheet('question/science_sun.json')">☀️ The Sun</button>
                         </div>
                     </details>
                     <!-- PAIDB Category -->

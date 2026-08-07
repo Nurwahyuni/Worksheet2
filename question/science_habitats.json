@@ -1,0 +1,131 @@
+{
+    "title": "Science: Habitats 🏕️",
+    "summary": "<b>1. What is a Habitat?</b><br>A <b>habitat</b> is a natural home or <b>environment</b> for animals and plants. It provides living things with <b>food</b>, <b>water</b>, and <b>shelter</b>.<br><br><b>2. Kinds of Habitats & Their Environments:</b><br>🏜️ <b>Desert:</b> Very <b>hot</b>, dry, and <b>bright</b>. (Example country: Egypt).<br>🌴 <b>Tropical Rainforest:</b> Very <b>warm</b>, <b>wet</b>, and has many tall trees. <b>Monkeys</b> and orchids live here. (Example country: Brazil).<br>❄️ <b>Polar:</b> Very cold, icy, and snowy. Only a few plants can grow here. (Example region: Antarctica or Canada).<br>🌾 <b>Grassland:</b> Warm, open fields with lots of grass and few trees. (Example country: Kenya or Australia).<br>🌊 <b>Aquatic:</b> A water habitat, like oceans, lakes, and rivers. Seaweeds and fish live here.<br><br><b>3. Habitats for Plants:</b><br>Just like animals, plants also need a habitat! A habitat gives a plant the right soil, sunlight, and water it needs to grow.",
+    "questions": [
+        {
+            "type": "mcq",
+            "questionText": "A natural home for an animal or plant is called a...",
+            "options": ["habitat", "shelter", "house", "school"],
+            "answer": "habitat",
+            "hint": "It starts with the letter H."
+        },
+        {
+            "type": "mcq",
+            "questionText": "A habitat provides living things with food, water, and...",
+            "options": ["toys", "shelter", "clothes", "candy"],
+            "answer": "shelter",
+            "hint": "A safe place to hide and sleep."
+        },
+        {
+            "type": "mcq",
+            "questionText": "A habitat that is made of water, like a river or an ocean, is called an ______ habitat.",
+            "options": ["aquatic", "polar", "grassland", "hot"],
+            "answer": "aquatic",
+            "hint": "Aqua means water."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Kangaroos and zebras live in a warm, open place with lots of grass called a...",
+            "options": ["polar", "grassland", "aquatic", "environment"],
+            "answer": "grassland",
+            "hint": "Look at the word 'grass' in the question."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Why do PLANTS need a habitat?",
+            "options": ["To run away from animals", "To get the right soil, water, and sunlight", "To sleep in a bed", "To find a job"],
+            "answer": "To get the right soil, water, and sunlight",
+            "hint": "Plants need these things to make their own food."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the plant and animal to their correct habitat!",
+            "pairs": [
+                {"left": "Cactus & Camel", "right": "Desert"},
+                {"left": "Orchid & Monkeys", "right": "Tropical Rainforest"},
+                {"left": "Pine tree & Polar Bear", "right": "Polar"},
+                {"left": "Seaweed & Shark", "right": "Aquatic"}
+            ],
+            "hint": "Think about where these plants and animals live together."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the habitat to its environment!",
+            "pairs": [
+                {"left": "Desert", "right": "Hot, bright, and dry"},
+                {"left": "Tropical Rainforest", "right": "Warm and wet"},
+                {"left": "Polar", "right": "Cold and icy"},
+                {"left": "Aquatic", "right": "Full of water"}
+            ],
+            "hint": "Think about the weather in these places."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the habitat to the country/region where you can find it!",
+            "pairs": [
+                {"left": "Tropical Rainforest", "right": "Brazil"},
+                {"left": "Desert", "right": "Egypt"},
+                {"left": "Polar", "right": "Antarctica"},
+                {"left": "Grassland", "right": "Kenya"}
+            ],
+            "hint": "Egypt has the Sahara Desert. Brazil has the Amazon Rainforest."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick the correct boxes! What are the characteristics of a Tropical Rainforest habitat?",
+            "options": [
+                "Wet",
+                "Warm",
+                "Dry and cold",
+                "Many plants and animals",
+                "Covered in snow"
+            ],
+            "answer": [
+                "Wet",
+                "Warm",
+                "Many plants and animals"
+            ],
+            "hint": "Select 3 correct answers. Think about a warm jungle!"
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick the correct boxes! Choose the statements that are CORRECT about habitats and environments:",
+            "options": [
+                "A habitat provides food and water.",
+                "Plants do not need a habitat.",
+                "An environment is everything around us.",
+                "A polar habitat is very cold."
+            ],
+            "answer": [
+                "A habitat provides food and water.",
+                "An environment is everything around us.",
+                "A polar habitat is very cold."
+            ],
+            "hint": "Select 3 correct statements. One of them is wrong!"
+        },
+        {
+            "type": "short",
+            "questionText": "Everything around a living thing is called its E _ _ _ _ _ _ _ _ _ T.",
+            "answer": ["environment", "Environment"],
+            "hint": "Type: environment"
+        },
+        {
+            "type": "short",
+            "questionText": "Every living thing needs water and F _ _ _ to survive.",
+            "answer": ["food", "Food"],
+            "hint": "Type: food"
+        },
+        {
+            "type": "short",
+            "questionText": "The sun makes the desert very sunny and B _ _ _ _ T during the day.",
+            "answer": ["bright", "Bright"],
+            "hint": "Type: bright"
+        },
+        {
+            "type": "short",
+            "questionText": "A tropical rainforest gets a lot of rain, so the environment is very W _ _.",
+            "answer": ["wet", "Wet"],
+            "hint": "Type: wet (Not dry)."
+        }
+    ]
+}
