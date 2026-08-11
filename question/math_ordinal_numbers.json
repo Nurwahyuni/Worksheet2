@@ -1,0 +1,175 @@
+{
+    "title": "Math: Ordinal Numbers 1st to 20th 🔢",
+    "summary": "<b>1. What are Ordinal Numbers?</b><br>They tell us the <b>position</b> or <b>order</b> of something. (Examples: 1st, 2nd, 3rd, 4th).<br><br><b>2. Spelling the Tricky Ones:</b><br>• 1st = First, 2nd = Second, 3rd = Third.<br>• 5th = <b>Fifth</b> (not fiveth).<br>• 8th = <b>Eighth</b> (only one 't').<br>• 9th = <b>Ninth</b> (no 'e').<br>• 12th = <b>Twelfth</b> (has an 'f').<br>• 20th = <b>Twentieth</b>.<br><br><b>3. Front and End (Left and Right):</b><br>We can count positions from the front (left) or from the end (right). <br>For example, if there are 20 fruits in a line, the <b>1st from the left</b> is the same as the <b>20th from the right</b>!",
+    "questions": [
+        {
+            "type": "matching",
+            "questionText": "Match the ordinal numbers (1 to 4) to their words!",
+            "pairs": [
+                {"left": "1st", "right": "First"},
+                {"left": "2nd", "right": "Second"},
+                {"left": "3rd", "right": "Third"},
+                {"left": "4th", "right": "Fourth"}
+            ],
+            "hint": "Read carefully! 1st, 2nd, and 3rd have special names."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the tricky ordinal numbers to their words!",
+            "pairs": [
+                {"left": "5th", "right": "Fifth"},
+                {"left": "8th", "right": "Eighth"},
+                {"left": "9th", "right": "Ninth"},
+                {"left": "12th", "right": "Twelfth"}
+            ],
+            "hint": "Remember the spelling rules for these tricky numbers!"
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the bigger ordinal numbers to their words!",
+            "pairs": [
+                {"left": "11th", "right": "Eleventh"},
+                {"left": "13th", "right": "Thirteenth"},
+                {"left": "15th", "right": "Fifteenth"},
+                {"left": "20th", "right": "Twentieth"}
+            ],
+            "hint": "15th is Fifteenth, not Fiveteenth!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at these 20 items in a row:<br><br><span style='font-size:1.4rem; letter-spacing:3px;'>🍎🍌🍉🍇🍓🍒🍍🥝🥥🥭🍑🍐🍏🍈🍋🍊🫐🍅🥑🍆</span><br><br>Which item is <b>9th from the left</b>?",
+            "options": ["🍍", "🥥", "🥭", "🍏"],
+            "answer": "🥥",
+            "hint": "Count starting from the Apple (🍎) on the left side: 1st, 2nd, 3rd..."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at these 20 items in a row:<br><br><span style='font-size:1.4rem; letter-spacing:3px;'>🍎🍌🍉🍇🍓🍒🍍🥝🥥🥭🍑🍐🍏🍈🍋🍊🫐🍅🥑🍆</span><br><br>Which item is <b>5th from the right</b>?",
+            "options": ["🍋", "🍊", "🫐", "🥑"],
+            "answer": "🍊",
+            "hint": "Count backwards starting from the Eggplant (🍆) on the right side: 1st, 2nd, 3rd..."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at these 20 items in a row:<br><br><span style='font-size:1.4rem; letter-spacing:3px;'>🍎🍌🍉🍇🍓🍒🍍🥝🥥🥭🍑🍐🍏🍈🍋🍊🫐🍅🥑🍆</span><br><br>Which item is <b>14th from the right</b>?",
+            "options": ["🍒", "🍍", "🥝", "🍉"],
+            "answer": "🍍",
+            "hint": "Count backwards from the right. It will take a while!"
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Look at these 20 items in a row:<br><br><span style='font-size:1.4rem; letter-spacing:3px;'>🍎🍌🍉🍇🍓🍒🍍🥝🥥🥭🍑🍐🍏🍈🍋🍊🫐🍅🥑🍆</span><br><br>Tick ALL the <b>TRUE</b> statements!",
+            "options": [
+                "The 1st from the right is 🍆.",
+                "The 3rd from the left is 🍉.",
+                "The 2nd from the right is 🍌.",
+                "The 10th from the left is 🥭."
+            ],
+            "answer": [
+                "The 1st from the right is 🍆.",
+                "The 3rd from the left is 🍉.",
+                "The 10th from the left is 🥭."
+            ],
+            "hint": "Three of these sentences are correct. One is wrong!"
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Look at these 20 items in a row:<br><br><span style='font-size:1.4rem; letter-spacing:3px;'>🍎🍌🍉🍇🍓🍒🍍🥝🥥🥭🍑🍐🍏🍈🍋🍊🫐🍅🥑🍆</span><br><br>Tick ALL the <b>TRUE</b> statements about Left and Right positions!",
+            "options": [
+                "The 5th from the left is the same as the 16th from the right. (🍓)",
+                "The 1st from the left is the same as the 20th from the right. (🍎)",
+                "The 2nd from the left is the same as the 2nd from the right.",
+                "The 19th from the right is the same as the 2nd from the left. (🍌)"
+            ],
+            "answer": [
+                "The 5th from the left is the same as the 16th from the right. (🍓)",
+                "The 1st from the left is the same as the 20th from the right. (🍎)",
+                "The 19th from the right is the same as the 2nd from the left. (🍌)"
+            ],
+            "hint": "Select 3 correct answers. Remember, the total is 20 items!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the word: <b>E L E P H A N T</b>. What is the <b>4th</b> letter from the front (left)?",
+            "options": ["E", "P", "H", "A"],
+            "answer": "P",
+            "hint": "Count from the left: 1, 2, 3, 4..."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the word: <b>E L E P H A N T</b>. What is the <b>3rd</b> letter from the end (right)?",
+            "options": ["P", "H", "A", "N"],
+            "answer": "A",
+            "hint": "Count from the right side backwards: T is 1st, N is 2nd..."
+        },
+        {
+            "type": "mcq",
+            "questionText": "There are 10 cars in a race. The green car is <b>9th from the front</b>. What is its position from the end?",
+            "options": ["1st", "2nd", "3rd", "9th"],
+            "answer": "2nd",
+            "hint": "10th from the front is 1st from the end. So 9th from the front is..."
+        },
+        {
+            "type": "short",
+            "questionText": "Write the word for the number <b>1st</b>:",
+            "answer": ["first", "First"],
+            "hint": "Type: first"
+        },
+        {
+            "type": "short",
+            "questionText": "Write the word for the number <b>2nd</b>:",
+            "answer": ["second", "Second"],
+            "hint": "Type: second"
+        },
+        {
+            "type": "short",
+            "questionText": "Write the word for the number <b>3rd</b>:",
+            "answer": ["third", "Third"],
+            "hint": "Type: third"
+        },
+        {
+            "type": "short",
+            "questionText": "Write the word for the number <b>5th</b>:",
+            "answer": ["fifth", "Fifth"],
+            "hint": "Type: fifth (Remember, it is NOT fiveth!)"
+        },
+        {
+            "type": "short",
+            "questionText": "Write the word for the number <b>8th</b>:",
+            "answer": ["eighth", "Eighth"],
+            "hint": "Type: eighth (It only has one 't')"
+        },
+        {
+            "type": "short",
+            "questionText": "Write the word for the number <b>9th</b>:",
+            "answer": ["ninth", "Ninth"],
+            "hint": "Type: ninth (Drop the 'e')"
+        },
+        {
+            "type": "short",
+            "questionText": "Write the word for the number <b>12th</b>:",
+            "answer": ["twelfth", "Twelfth"],
+            "hint": "Type: twelfth (It has an 'f')"
+        },
+        {
+            "type": "short",
+            "questionText": "Write the word for the number <b>20th</b>:",
+            "answer": ["twentieth", "Twentieth"],
+            "hint": "Type: twentieth"
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the word for 11th!",
+            "word": "ELEVENTH",
+            "blanks": [2, 4, 6],
+            "hint": "E L _ V _ N _ H"
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the word for 15th!",
+            "word": "FIFTEENTH",
+            "blanks": [1, 4, 5, 7],
+            "hint": "F _ F T _ _ N _ H"
+        }
+    ]
+}

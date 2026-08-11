@@ -1,0 +1,212 @@
+{
+    "title": "Math: Money 💰",
+    "summary": "<b>1. Notes and Coins:</b><br>• Paper money is called a <b>Note</b>.<br>• Metal money is called a <b>Coin</b>.<br><br><b>2. Dollars and Cents:</b><br>• The symbol for Dollar is <b>$</b>.<br>• The symbol for Cent is <b>¢</b>.<br>• <b>100 cents = $1</b> (One Dollar).<br><br><b>3. Adding Money:</b><br>When we buy things, we add the value of notes and coins together. For example, a $5 note and a $2 note make $7.",
+    "questions": [
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters! Paper money is called a...",
+            "word": "NOTE",
+            "blanks": [1, 2],
+            "hint": "It rhymes with 'boat'."
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters! Round metal money is called a...",
+            "word": "COIN",
+            "blanks": [1, 2],
+            "hint": "It starts with C and ends with N."
+        },
+        {
+            "type": "short",
+            "questionText": "Look at this note:<br><br><div class=money-note><div class=money-note-inner><div class=money-note-oval>10</div><div class=money-note-text>TEN DOLLARS</div></div></div><br><br>What is the value of this note in dollars? (Type the number)",
+            "answer": ["10", "$10", "ten", "Ten"],
+            "hint": "Look at the number inside the oval."
+        },
+        {
+            "type": "short",
+            "questionText": "Look at this note:<br><br><div class=money-note><div class=money-note-inner><div class=money-note-oval>100</div><div class=money-note-text>ONE HUNDRED DOLLARS</div></div></div><br><br>What is the value of this note in dollars? (Type the number)",
+            "answer": ["100", "$100", "one hundred"],
+            "hint": "Look at the number inside the oval."
+        },
+        {
+            "type": "short",
+            "questionText": "Look at this coin:<br><br><div class=money-coin><div class=money-coin-val>50</div><div class=money-coin-text>cents</div></div><br><br>What is the value of this coin in cents? (Type the number)",
+            "answer": ["50", "50c", "fifty", "Fifty"],
+            "hint": "Look at the number on the coin."
+        },
+        {
+            "type": "short",
+            "questionText": "Count the notes:<br><br><div class=money-note><div class=money-note-inner><div class=money-note-oval>20</div><div class=money-note-text>TWENTY DOLLARS</div></div></div> + <div class=money-note><div class=money-note-inner><div class=money-note-oval>5</div><div class=money-note-text>FIVE DOLLARS</div></div></div> = $___",
+            "answer": ["25", "$25", "25 dollars"],
+            "hint": "Add 20 + 5."
+        },
+        {
+            "type": "short",
+            "questionText": "Count the coins:<br><br><div class=money-coin><div class=money-coin-val>25</div><div class=money-coin-text>cents</div></div> + <div class=money-coin><div class=money-coin-val>10</div><div class=money-coin-text>cents</div></div> = ___¢",
+            "answer": ["35", "35c", "35 cents"],
+            "hint": "Add 25 + 10."
+        },
+        {
+            "type": "short",
+            "questionText": "Count the coins:<br><br><div class=money-coin><div class=money-coin-val>50</div><div class=money-coin-text>cents</div></div> + <div class=money-coin><div class=money-coin-val>10</div><div class=money-coin-text>cents</div></div> + <div class=money-coin><div class=money-coin-val>5</div><div class=money-coin-text>cents</div></div> = ___¢",
+            "answer": ["65", "65c", "65 cents"],
+            "hint": "Add 50 + 10 + 5."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "A toy car costs <b>$7</b>. Tick the notes you can use to pay EXACTLY $7!",
+            "options": [
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>5</div><div class=money-note-text>FIVE DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>10</div><div class=money-note-text>TEN DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>2</div><div class=money-note-text>TWO DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>1</div><div class=money-note-text>ONE DOLLAR</div></div></div>"
+            ],
+            "answer": [
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>5</div><div class=money-note-text>FIVE DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>2</div><div class=money-note-text>TWO DOLLARS</div></div></div>"
+            ],
+            "hint": "What two numbers make 7?"
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "A book costs <b>$15</b>. Tick the notes you can use to pay EXACTLY $15!",
+            "options": [
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>5</div><div class=money-note-text>FIVE DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>2</div><div class=money-note-text>TWO DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>10</div><div class=money-note-text>TEN DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>1</div><div class=money-note-text>ONE DOLLAR</div></div></div>"
+            ],
+            "answer": [
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>5</div><div class=money-note-text>FIVE DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>10</div><div class=money-note-text>TEN DOLLARS</div></div></div>"
+            ],
+            "hint": "10 + 5 = ?"
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "A school bag costs <b>$12</b>. Tick the notes you can use to pay EXACTLY $12!",
+            "options": [
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>10</div><div class=money-note-text>TEN DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>5</div><div class=money-note-text>FIVE DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>2</div><div class=money-note-text>TWO DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>1</div><div class=money-note-text>ONE DOLLAR</div></div></div>"
+            ],
+            "answer": [
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>10</div><div class=money-note-text>TEN DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>2</div><div class=money-note-text>TWO DOLLARS</div></div></div>"
+            ],
+            "hint": "10 + 2 = ?"
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "A cool jacket costs <b>$26</b>. Tick the notes you can use to pay EXACTLY $26!",
+            "options": [
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>20</div><div class=money-note-text>TWENTY DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>5</div><div class=money-note-text>FIVE DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>2</div><div class=money-note-text>TWO DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>1</div><div class=money-note-text>ONE DOLLAR</div></div></div>"
+            ],
+            "answer": [
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>20</div><div class=money-note-text>TWENTY DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>5</div><div class=money-note-text>FIVE DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>1</div><div class=money-note-text>ONE DOLLAR</div></div></div>"
+            ],
+            "hint": "You need THREE notes for this one! 20 + 5 + 1 = 26."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "A big puzzle game costs <b>$55</b>. Tick the notes you can use to pay EXACTLY $55!",
+            "options": [
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>50</div><div class=money-note-text>FIFTY DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>10</div><div class=money-note-text>TEN DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>5</div><div class=money-note-text>FIVE DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>2</div><div class=money-note-text>TWO DOLLARS</div></div></div>"
+            ],
+            "answer": [
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>50</div><div class=money-note-text>FIFTY DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>5</div><div class=money-note-text>FIVE DOLLARS</div></div></div>"
+            ],
+            "hint": "Which two notes add up to 55?"
+        },
+        {
+            "type": "mcq",
+            "questionText": "<b>TOY STORE PRICES:</b><br>🧸 Teddy Bear: $10<br>⚽ Ball: $5<br>🖍️ Pen: $2<br>📏 Ruler: $1<br><br>Tom spent <b>$15</b>. What did he buy?",
+            "options": ["Teddy Bear and Pen", "Teddy Bear and Ball", "Ball and Pen", "Three Balls"],
+            "answer": "Teddy Bear and Ball",
+            "hint": "10 + 5 = 15."
+        },
+        {
+            "type": "mcq",
+            "questionText": "<b>TOY STORE PRICES:</b><br>🧸 Teddy Bear: $10<br>⚽ Ball: $5<br>🖍️ Pen: $2<br>📏 Ruler: $1<br><br>Anna spent <b>$7</b>. What did she buy?",
+            "options": ["Teddy Bear", "Ball and Pen", "Ball and Ruler", "Two Pens"],
+            "answer": "Ball and Pen",
+            "hint": "5 + 2 = 7."
+        },
+        {
+            "type": "mcq",
+            "questionText": "<b>TOY STORE PRICES:</b><br>🧸 Teddy Bear: $10<br>⚽ Ball: $5<br>🖍️ Pen: $2<br>📏 Ruler: $1<br><br>Sam spent <b>$12</b>. What did he buy?",
+            "options": ["Teddy Bear and Pen", "Teddy Bear and Ball", "Teddy Bear and Ruler", "Pen and Ball"],
+            "answer": "Teddy Bear and Pen",
+            "hint": "10 + 2 = 12."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Which is MORE money?",
+            "options": ["One $10 note", "Ten $1 notes", "They are exactly the same", "One $5 note"],
+            "answer": "They are exactly the same",
+            "hint": "If you have ten $1 notes, how much do you have in total?"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Which is LESS money?",
+            "options": [
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>5</div><div class=money-note-text>FIVE DOLLARS</div></div></div>",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>2</div><div class=money-note-text>TWO DOLLARS</div></div></div>",
+                "Five $1 notes",
+                "<div class=money-note><div class=money-note-inner><div class=money-note-oval>10</div><div class=money-note-text>TEN DOLLARS</div></div></div>"
+            ],
+            "answer": "<div class=money-note><div class=money-note-inner><div class=money-note-oval>2</div><div class=money-note-text>TWO DOLLARS</div></div></div>",
+            "hint": "Look for the smallest number."
+        },
+        {
+            "type": "mcq",
+            "questionText": "<b>100 cents</b> is exactly the same as...",
+            "options": ["$1 (One Dollar)", "$10 (Ten Dollars)", "$100 (One Hundred Dollars)", "10¢ (Ten Cents)"],
+            "answer": "$1 (One Dollar)",
+            "hint": "When you have 100 cents, it turns into a dollar!"
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "How can you make <b>$1</b> (100 cents)? Tick ALL the correct ways!",
+            "options": [
+                "<div class=money-coin><div class=money-coin-val>50</div><div class=money-coin-text>cents</div></div> + <div class=money-coin><div class=money-coin-val>50</div><div class=money-coin-text>cents</div></div>",
+                "<div class=money-coin><div class=money-coin-val>10</div><div class=money-coin-text>cents</div></div> + <div class=money-coin><div class=money-coin-val>10</div><div class=money-coin-text>cents</div></div>",
+                "Ten 10¢ coins",
+                "<div class=money-coin><div class=money-coin-val>50</div><div class=money-coin-text>cents</div></div> + <div class=money-coin><div class=money-coin-val>10</div><div class=money-coin-text>cents</div></div>"
+            ],
+            "answer": [
+                "<div class=money-coin><div class=money-coin-val>50</div><div class=money-coin-text>cents</div></div> + <div class=money-coin><div class=money-coin-val>50</div><div class=money-coin-text>cents</div></div>",
+                "Ten 10¢ coins"
+            ],
+            "hint": "Select 2 correct answers that add up to 100."
+        },
+        {
+            "type": "mcq",
+            "questionText": "I have a <div class=money-coin><div class=money-coin-val>50</div><div class=money-coin-text>cents</div></div> coin. How much MORE do I need to make <b>$1</b>?",
+            "options": ["10¢", "50¢", "$1", "5¢"],
+            "answer": "50¢",
+            "hint": "50 + ? = 100."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the coins and notes to their correct names!",
+            "pairs": [
+                {"left": "<div class=money-note><div class=money-note-inner><div class=money-note-oval>100</div><div class=money-note-text>ONE HUNDRED DOLLARS</div></div></div>", "right": "One Hundred Dollars"},
+                {"left": "<div class=money-note><div class=money-note-inner><div class=money-note-oval>2</div><div class=money-note-text>TWO DOLLARS</div></div></div>", "right": "Two Dollars"},
+                {"left": "<div class=money-coin><div class=money-coin-val>10</div><div class=money-coin-text>cents</div></div>", "right": "Ten Cents"},
+                {"left": "<div class=money-coin><div class=money-coin-val>5</div><div class=money-coin-text>cents</div></div>", "right": "Five Cents"}
+            ],
+            "hint": "Match the picture to the word!"
+        }
+    ]
+}

@@ -559,3 +559,67 @@ textarea.long-answer:focus {
     transform: translateY(4px);
     box-shadow: 0 0px 0 var(--ink);
 }
+/* ==========================================================================
+   MONEY IMAGES (NOTES & COINS)
+   ========================================================================== */
+.money-note {
+    display: inline-block;
+    width: 130px;
+    height: 65px;
+    border: 2px solid #444;
+    background-color: #f1f8e9; /* Warna hijau muda khas uang */
+    padding: 4px;
+    margin: 5px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.money-note-inner {
+    border: 1px solid #666;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.money-note-oval {
+    border: 1px solid #666;
+    border-radius: 50%;
+    padding: 2px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: #fff;
+}
+.money-note-text {
+    font-size: 0.55rem;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.money-coin {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #555;
+    background-color: #e0e0e0; /* Warna perak */
+    margin: 5px;
+    vertical-align: middle;
+    box-shadow: inset 0 0 0 2px #ccc, inset 0 0 0 3px #777; /* Garis cincin dalam koin */
+    font-family: Arial, sans-serif;
+}
+.money-coin-val { 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    line-height: 1; 
+}
+.money-coin-text { 
+    font-size: 0.6rem; 
+    line-height: 1; 
+    margin-top: 2px;
+}

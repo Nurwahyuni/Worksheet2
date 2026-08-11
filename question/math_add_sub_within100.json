@@ -1,0 +1,195 @@
+{
+    "title": "Math: Addition & Subtraction within 100 ➕➖",
+    "summary": "<b>1. Addition (Adding / +)</b><br>Adding means finding the total or sum of numbers. <br><i>Words to look for:</i> total, in all, altogether, sum, more.<br><br><b>2. Subtraction (Subtracting / -)</b><br>Subtracting means taking away a number from another to find the difference.<br><i>Words to look for:</i> left, difference, fewer, take away, gave away.<br><br><b>3. Number Pairs (Bonds)</b><br>Number pairs are two numbers that add up to a specific number. <br>• Pairs to 20: 14 + 6 = 20, 10 + 10 = 20.<br>• Pairs to 100: 60 + 40 = 100, 75 + 25 = 100.",
+    "questions": [
+        {
+            "type": "short",
+            "questionText": "Add the numbers: <b>8 + 7 = ___</b>",
+            "answer": ["15"],
+            "hint": "Put 8 in your head and count on 7 fingers."
+        },
+        {
+            "type": "short",
+            "questionText": "Add the numbers: <b>9 + 6 = ___</b>",
+            "answer": ["15"],
+            "hint": "Make a 10 first! Take 1 from the 6 to make the 9 a 10."
+        },
+        {
+            "type": "short",
+            "questionText": "Add the numbers: <b>11 + 8 = ___</b>",
+            "answer": ["19"],
+            "hint": "1 + 8 is 9, so 11 + 8 is..."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Add the numbers: <b>14 + 6 = ___</b>",
+            "answer": "20",
+            "options": ["18", "19", "20", "21"],
+            "hint": "Count up 6 times from 14."
+        },
+        {
+            "type": "mcq",
+            "questionText": "<b>Word Problem:</b> Tom has 12 apples. His mother gives him 5 MORE apples. How many apples does Tom have in total?",
+            "answer": "17",
+            "options": ["15", "16", "17", "18"],
+            "hint": "The word 'more' means you must Add (+). 12 + 5 = ?"
+        },
+        {
+            "type": "short",
+            "questionText": "Subtract the numbers: <b>15 - 7 = ___</b>",
+            "answer": ["8"],
+            "hint": "Count backwards from 15."
+        },
+        {
+            "type": "short",
+            "questionText": "Subtract the numbers: <b>18 - 9 = ___</b>",
+            "answer": ["9"],
+            "hint": "Remember your doubles! What number plus itself makes 18?"
+        },
+        {
+            "type": "short",
+            "questionText": "Subtract the numbers: <b>20 - 8 = ___</b>",
+            "answer": ["12"],
+            "hint": "Think of pairs to 10. 10 - 8 = 2, so 20 - 8 = 12."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Subtract the numbers: <b>13 - 6 = ___</b>",
+            "answer": "7",
+            "options": ["6", "7", "8", "9"],
+            "hint": "Take away 3 to get to 10, then take away 3 more."
+        },
+        {
+            "type": "mcq",
+            "questionText": "<b>Word Problem:</b> Sarah had 16 candies. She ATE 4 of them. How many candies are LEFT?",
+            "answer": "12",
+            "options": ["10", "12", "14", "20"],
+            "hint": "The words 'ate' and 'left' mean you must Subtract (-). 16 - 4 = ?"
+        },
+        {
+            "type": "short",
+            "questionText": "Find the missing number pair to 20: <b>14 + ___ = 20</b>",
+            "answer": ["6"],
+            "hint": "What number do you add to 4 to make 10?"
+        },
+        {
+            "type": "short",
+            "questionText": "Find the missing number pair to 20: <b>___ + 3 = 20</b>",
+            "answer": ["17"],
+            "hint": "Count back 3 steps from 20."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Find the missing number pair to 20: <b>7 + ___ = 20</b>",
+            "answer": "13",
+            "options": ["11", "12", "13", "14"],
+            "hint": "Think: 7 + 3 = 10, so 7 + 13 = 20."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the number pairs that make exactly <b>20</b>!",
+            "pairs": [
+                {"left": "15", "right": "5"},
+                {"left": "12", "right": "8"},
+                {"left": "19", "right": "1"},
+                {"left": "10", "right": "10"}
+            ],
+            "hint": "Add the ones together to make a zero!"
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick ALL the pairs that make exactly <b>20</b>!",
+            "options": [
+                "14 + 6",
+                "11 + 9",
+                "15 + 4",
+                "18 + 2"
+            ],
+            "answer": [
+                "14 + 6",
+                "11 + 9",
+                "18 + 2"
+            ],
+            "hint": "Check the ones place. Do they add up to 10?"
+        },
+        {
+            "type": "short",
+            "questionText": "Find the missing number pair to 100: <b>60 + ___ = 100</b>",
+            "answer": ["40"],
+            "hint": "Think of pairs to 10. 6 + 4 = 10, so 60 + 40 = 100."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Find the missing number pair to 100: <b>___ + 25 = 100</b>",
+            "answer": "75",
+            "options": ["65", "75", "85", "50"],
+            "hint": "Think about quarters (like in time or money). 25 + 25 + 25 + 25 = 100."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the number pairs that make exactly <b>100</b>!",
+            "pairs": [
+                {"left": "90", "right": "10"},
+                {"left": "50", "right": "50"},
+                {"left": "80", "right": "20"},
+                {"left": "70", "right": "30"}
+            ],
+            "hint": "Use your pairs to 10 to help you!"
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick ALL the pairs that make exactly <b>100</b>!",
+            "options": [
+                "60 + 40",
+                "90 + 10",
+                "30 + 60",
+                "45 + 55"
+            ],
+            "answer": [
+                "60 + 40",
+                "90 + 10",
+                "45 + 55"
+            ],
+            "hint": "Add the tens and the ones carefully."
+        },
+        {
+            "type": "short",
+            "questionText": "Add within 100: <b>45 + 23 = ___</b>",
+            "answer": ["68"],
+            "hint": "Add the tens (40+20) and add the ones (5+3)."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Add within 100: <b>57 + 34 = ___</b>",
+            "answer": "91",
+            "options": ["81", "91", "90", "80"],
+            "hint": "7 + 4 = 11. Write 1 and carry over the 10!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "<b>Word Problem:</b> There are 42 boys and 36 girls in the school hall. How many children are there ALTOGETHER?",
+            "answer": "78",
+            "options": ["78", "88", "76", "68"],
+            "hint": "Altogether means you must Add (+). 42 + 36 = ?"
+        },
+        {
+            "type": "short",
+            "questionText": "Subtract within 100: <b>78 - 24 = ___</b>",
+            "answer": ["54"],
+            "hint": "Subtract the tens (70-20) and the ones (8-4)."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Subtract within 100: <b>85 - 37 = ___</b>",
+            "answer": "48",
+            "options": ["58", "48", "52", "42"],
+            "hint": "You cannot do 5 - 7, so you must borrow 10 from the 80!"
+        },
+        {
+            "type": "short",
+            "questionText": "<b>Word Problem:</b> A baker made 90 cupcakes. He SOLD 45 of them in the morning. How many cupcakes are LEFT?",
+            "answer": ["45"],
+            "hint": "The word 'left' means you must Subtract (-). 90 - 45 = ?"
+        }
+    ]
+}
