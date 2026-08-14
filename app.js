@@ -110,8 +110,9 @@ function renderQuestion() {
         case 'tf':
         case 'image':
             html += `<div class="options-grid">`;
-            qData.options.forEach(opt => {
-                html += `<button class="option-btn" onclick="selectOption(this, '${opt}')">${opt}</button>`;
+            // PERBAIKAN: Menggunakan index (idx) alih-alih teks mentah
+            qData.options.forEach((opt, idx) => {
+                html += `<button class="option-btn" onclick="selectOption(this, ${idx})">${opt}</button>`;
             });
             html += `</div>`;
             break;
@@ -124,10 +125,11 @@ function renderQuestion() {
             // Pilihan Ganda Centang (Multi-Check)
             html += `<p style="font-size:0.95rem; color:#666; margin-bottom:10px;"><i>Select all correct answers!</i></p>`;
             html += `<div class="checkbox-group" style="display:flex; flex-direction:column; gap:10px;">`;
-            qData.options.forEach(opt => {
+            // PERBAIKAN: Menggunakan index (idx) pada value checkbox
+            qData.options.forEach((opt, idx) => {
                 html += `
                     <label style="display:flex; align-items:center; gap:10px; font-size:1.1rem; cursor:pointer; background:#f5f5f5; padding:12px; border-radius:10px; border:2px solid #ccc;">
-                        <input type="checkbox" name="multi-opt" value="${opt}" style="width:20px; height:20px; cursor:pointer;">
+                        <input type="checkbox" name="multi-opt" value="${idx}" style="width:20px; height:20px; cursor:pointer;">
                         <span>${opt}</span>
                     </label>
                 `;
@@ -195,10 +197,16 @@ function renderQuestion() {
     qContainer.innerHTML = html;
 }
 
-function selectOption(element, value) {
+function selectOption(element, index) {
     document.querySelectorAll('.option-btn').forEach(btn => btn.classList.remove('selected'));
     element.classList.add('selected');
-    userSelectedAnswer = value;
+    
+    // Ambil data soal yang sedang aktif
+    const realIndex = activeQuestionList[currentQuestionIndex];
+    const qData = worksheetData.questions[realIndex];
+    
+    // Simpan pilihan berdasarkan indeks opsi
+    userSelectedAnswer = qData.options[index];
 }
 
 // --- LOGIC & GRADING ---
@@ -232,17 +240,17 @@ function checkAnswer() {
         }
         
     } else if (qData.type === 'multi_mcq') {
-        // CEK SOAL MULTI CHECKBOX (Diperbaiki: menggunakan qData)
-        const checkedBoxes = Array.from(document.querySelectorAll('input[name="multi-opt"]:checked')).map(cb => cb.value);
+        // CEK SOAL MULTI CHECKBOX BERDASARKAN INDEX
+        const checkedBoxes = Array.from(document.querySelectorAll('input[name="multi-opt"]:checked')).map(cb => parseInt(cb.value));
         
         if (checkedBoxes.length === 0) {
             alert("Please select at least one option! (Pilih minimal satu jawaban!)");
             return;
         }
 
-        // Urutkan array agar urutan centang tidak mempengaruhi penilaian
-        const userAnswers = checkedBoxes.sort();
-        const correctAnswers = Array.from(qData.answer).sort();
+        // Ambil teks opsi berdasarkan index yang dicentang oleh user
+        const userAnswers = checkedBoxes.map(idx => qData.options[idx]).sort();
+        const correctAnswers = Array.isArray(qData.answer) ? [...qData.answer].sort() : [qData.answer].sort();
 
         // Cek apakah semua pilihan user sama persis dengan kunci jawaban
         isCorrect = userAnswers.length === correctAnswers.length && 

@@ -1,0 +1,200 @@
+{
+    "title": "Science: Forces & Movement 🚀",
+    "summary": "<b>1. What is a Force?</b><br>A force is a <b>push</b> or a <b>pull</b>. We use forces every day to make things happen!<br><br><b>2. Changing Movement</b><br>• A force can make a <b>stationary</b> object (an object that is NOT moving) start to move.<br>• A force can speed things up, slow them down, or make a moving object stop.<br>• A force can also change the <b>direction</b> of a moving object (the way it is going).<br><br><b>3. Changing Shape</b><br>Forces can change the shape of an object! You can do this by:<br>• <b>Stretching:</b> Pulling things apart (like a rubber band).<br>• <b>Bending:</b> Curving an object without breaking it (like a plastic ruler).<br>• <b>Folding:</b> Bending something over itself (like paper).<br>• <b>Denting:</b> Pushing or hitting something so it gets a hollow mark (like hitting a tin can).<br><br><b>4. Science at Work</b><br>People use forces in their jobs! A baker pushes and pulls dough to change its shape. A footballer kicks a ball to change its direction.",
+    "questions": [
+        {
+            "type": "mcq",
+            "questionText": "A force is a push or a ______.",
+            "options": ["pull", "jump", "sleep", "look"],
+            "answer": "pull",
+            "hint": "The opposite of push."
+        },
+        {
+            "type": "mcq",
+            "questionText": "<b>Science at Work:</b> A baker is pressing, pushing, and pulling dough to make bread. What is the baker doing?",
+            "options": ["Changing the dough's direction", "Making the dough stationary", "Changing the dough's shape", "Changing the dough's color"],
+            "answer": "Changing the dough's shape",
+            "hint": "The dough goes from a round ball to a long loaf."
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters! An object that is NOT moving is called...",
+            "word": "STATIONARY",
+            "blanks": [1, 3, 5, 8],
+            "hint": "S _ A _ I _ N A _ Y"
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters! The way a moving object is going is called its...",
+            "word": "DIRECTION",
+            "blanks": [2, 4, 7],
+            "hint": "D I _ E _ T I _ N"
+        },
+        {
+            "type": "mcq",
+            "questionText": "How does a force change the movement of a <b>stationary</b> toy car?",
+            "options": ["It makes the car start moving.", "It makes the car disappear.", "It makes the car turn into water.", "It makes the car sleep."],
+            "answer": "It makes the car start moving.",
+            "hint": "Stationary means not moving. If you push it, what happens?"
+        },
+        {
+            "type": "mcq",
+            "questionText": "If you roll a ball across the floor, how can you stop it?",
+            "options": ["By yelling at it", "By applying a stopping force with your hand", "By turning off the light", "By running away"],
+            "answer": "By applying a stopping force with your hand",
+            "hint": "You need to use your body to stop it."
+        },
+        {
+            "type": "mcq",
+            "questionText": "A tennis ball is flying towards you. You hit it back with your racket. What did the force do?",
+            "options": ["Changed the shape of the ball", "Changed the color of the ball", "Changed the direction of the ball", "Made the ball stationary"],
+            "answer": "Changed the direction of the ball",
+            "hint": "The ball was coming AT you, now it is going AWAY from you."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick ALL the things a force can do to an object!",
+            "options": [
+                "Make a stationary object move",
+                "Stop a moving object",
+                "Change its direction",
+                "Change its shape",
+                "Make it sing a song"
+            ],
+            "answer": [
+                "Make a stationary object move",
+                "Stop a moving object",
+                "Change its direction",
+                "Change its shape"
+            ],
+            "hint": "Four of these are correct. One is very silly!"
+        },
+        {
+            "type": "short",
+            "questionText": "To make a stationary swing start moving away from you, you must give it a P _ _ _.",
+            "answer": ["push", "Push"],
+            "hint": "Type: push"
+        },
+        {
+            "type": "short",
+            "questionText": "To open a closed door toward your body, you must give it a P _ _ _.",
+            "answer": ["pull", "Pull"],
+            "hint": "Type: pull"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Can a force change the shape of an object?",
+            "options": ["Yes", "No"],
+            "answer": "Yes",
+            "hint": "Think about what happens when you crush a paper cup."
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters! When you pull a rubber band apart, you ______ it.",
+            "word": "STRETCH",
+            "blanks": [1, 4, 6],
+            "hint": "S _ R E _ C _"
+        },
+        {
+            "type": "short",
+            "questionText": "If you hit a metal tin can with a heavy rock, it will leave a mark called a D _ _ T.",
+            "answer": ["dent", "Dent"],
+            "hint": "Type: dent"
+        },
+        {
+            "type": "short",
+            "questionText": "You can make an origami boat if you F _ _ D a piece of paper.",
+            "answer": ["fold", "Fold"],
+            "hint": "Type: fold"
+        },
+        {
+            "type": "mcq",
+            "questionText": "If you hold a plastic ruler and push the ends together, the ruler will ______.",
+            "options": ["dent", "melt", "bend", "fold"],
+            "answer": "bend",
+            "hint": "It will curve like a rainbow without breaking."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the action to how it changes the shape of a material!",
+            "pairs": [
+                {"left": "Pulling a rubber band", "right": "Stretch"},
+                {"left": "Making an origami bird", "right": "Fold"},
+                {"left": "Hitting a metal car door", "right": "Dent"},
+                {"left": "Curving a plastic ruler", "right": "Bend"}
+            ],
+            "hint": "Think about the shape of the object after you apply the force."
+        },
+        {
+            "type": "matching",
+            "questionText": "Science Words! Match the words to their meanings.",
+            "pairs": [
+                {"left": "Stationary", "right": "Not moving"},
+                {"left": "Direction", "right": "The way an object is going"},
+                {"left": "Force", "right": "A push or a pull"},
+                {"left": "Shape", "right": "How something looks on the outside"}
+            ],
+            "hint": "Remember the new words we learned!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "<b>Science at Work:</b> A potter is spinning wet clay on a wheel and pressing it to make a bowl. The clay is ______.",
+            "options": ["changing shape", "stretching", "folding", "denting"],
+            "answer": "changing shape",
+            "hint": "The wet clay turns into a beautiful bowl."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick ALL the ways you can change the shape of a material!",
+            "options": [
+                "Stretch",
+                "Bend",
+                "Smile",
+                "Fold",
+                "Dent"
+            ],
+            "answer": [
+                "Stretch",
+                "Bend",
+                "Fold",
+                "Dent"
+            ],
+            "hint": "Select 4 correct answers. One of these is just something you do with your face!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "A heavy box is stationary on the floor. To move it, you must apply a ______ force.",
+            "options": ["small and gentle", "strong and big", "invisible", "cold"],
+            "answer": "strong and big",
+            "hint": "Heavy things need more force to move!"
+        },
+        {
+            "type": "short",
+            "questionText": "When a moving car hits a wall and stops, the wall applied a F _ _ _ E to stop the car.",
+            "answer": ["force", "Force"],
+            "hint": "A push or a pull. Type: force"
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick ALL the TRUE statements!",
+            "options": [
+                "A stationary object is already moving very fast.",
+                "A force is a push or a pull.",
+                "You can change the shape of paper by folding it.",
+                "Forces can change the direction of a football."
+            ],
+            "answer": [
+                "A force is a push or a pull.",
+                "You can change the shape of paper by folding it.",
+                "Forces can change the direction of a football."
+            ],
+            "hint": "One of these is FALSE. Remember what stationary means!"
+        },
+        {
+            "type": "long",
+            "questionText": "Write a sentence using the word 'push' or 'pull'. (Example: I pull the door to open it.)",
+            "answer": ["push", "pull", "Push", "Pull", "pushes", "pulls"],
+            "hint": "Think of an everyday action where you use a force!"
+        }
+    ]
+}

@@ -1,0 +1,181 @@
+{
+    "title": "Science: Everyday Materials 🧱",
+    "summary": "<b>1. Where do materials come from?</b><br>• <b>Naturally:</b> They come from nature! Examples: <b>Wood</b> and <b>cotton</b> (from plants), <b>wool</b> (from animals), <b>rock</b> and <b>metal</b> (from the ground).<br>• <b>Manufactured:</b> Made by humans! Examples: <b>Plastic</b>, <b>paper</b> (made from wood), and <b>glass</b> (made from sand).<br><br><b>2. Properties of Materials</b><br>A property describes what a material is like. <br>• <b>Strong</b> (hard to break), <b>flexible</b> (bends easily), <b>light</b> (not heavy), <b>smooth</b>, <b>waterproof</b> (keeps water out).<br>• <b>See-through</b> (like glass) or <b>not see-through</b> (like wood).<br><br><b>3. Testing & Choosing</b><br>We <b>test</b> materials to see their properties. Then we can put the results in a <b>block graph</b>. We must choose the right material for the job!<br><br><b>4. Changing Materials</b><br>Some materials change into completely new things! If we <b>burn</b> wood, it turns into <b>ash</b>. If metal gets wet, it can <b>rust</b>.",
+    "questions": [
+        {
+            "type": "mcq",
+            "questionText": "Materials that come from plants, animals, or the ground are made ______.",
+            "options": ["naturally", "manufactured", "by magic", "by machines"],
+            "answer": "naturally",
+            "hint": "It means they come from nature."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Materials that are made by humans in factories are called ______ materials.",
+            "options": ["naturally", "manufactured", "living", "plant"],
+            "answer": "manufactured",
+            "hint": "It starts with the letter M."
+        },
+        {
+            "type": "matching",
+            "questionText": "Where do these natural materials come from? Match them up!",
+            "pairs": [
+                {"left": "Wood", "right": "From trees (plants)"},
+                {"left": "Wool", "right": "From sheep (animals)"},
+                {"left": "Cotton", "right": "From a fluffy plant"},
+                {"left": "Rock", "right": "From the ground"}
+            ],
+            "hint": "Think about where we find these things in nature."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick ALL the MANUFACTURED materials! (Made by humans)",
+            "options": [
+                "Plastic",
+                "Wood",
+                "Paper",
+                "Glass",
+                "Rock"
+            ],
+            "answer": [
+                "Plastic",
+                "Paper",
+                "Glass"
+            ],
+            "hint": "Select 3 materials that humans make in factories."
+        },
+        {
+            "type": "mcq",
+            "questionText": "We use glass for windows because it is ______.",
+            "options": ["see-through", "not see-through", "soft", "flexible"],
+            "answer": "see-through",
+            "hint": "It allows us to look outside."
+        },
+        {
+            "type": "mcq",
+            "questionText": "We use wood to make a door because it is strong and ______.",
+            "options": ["see-through", "not see-through", "glass", "water"],
+            "answer": "not see-through",
+            "hint": "We don't want people looking inside the bathroom!"
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters! A material that can bend easily without breaking is...",
+            "word": "FLEXIBLE",
+            "blanks": [2, 4, 6],
+            "hint": "F L _ X _ B _ E"
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters! A material that keeps water out is...",
+            "word": "WATERPROOF",
+            "blanks": [1, 5, 8],
+            "hint": "W _ T E R _ R O _ F"
+        },
+        {
+            "type": "short",
+            "questionText": "Clothes and clothes are made from a woven material called F _ B R _ C.",
+            "answer": ["fabric", "Fabric"],
+            "hint": "Type: fabric"
+        },
+        {
+            "type": "mcq",
+            "questionText": "A feather is very easy to carry because it is very ______.",
+            "options": ["heavy", "light", "strong", "hard"],
+            "answer": "light",
+            "hint": "The opposite of heavy."
+        },
+        {
+            "type": "short",
+            "questionText": "A marble has no bumps. It feels very S M _ _ _ H.",
+            "answer": ["smooth", "Smooth"],
+            "hint": "The opposite of rough."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick ALL the properties of a Brick!",
+            "options": [
+                "Hard",
+                "Strong",
+                "Flexible",
+                "Not see-through",
+                "Light"
+            ],
+            "answer": [
+                "Hard",
+                "Strong",
+                "Not see-through"
+            ],
+            "hint": "Select 3 correct properties. Can you bend a brick?"
+        },
+        {
+            "type": "mcq",
+            "questionText": "How do we find out if a material is waterproof or not?",
+            "options": ["We must test it.", "We just guess.", "We eat it.", "We paint it."],
+            "answer": "We must test it.",
+            "hint": "Scientists always do an experiment to find out!"
+        },
+        {
+            "type": "short",
+            "questionText": "After we test materials, we can draw a B _ _ _ K  G _ _ _ H to show our results.",
+            "answer": ["block graph", "Block graph", "Block Graph"],
+            "hint": "A chart made of boxes to show data. Type: block graph"
+        },
+        {
+            "type": "mcq",
+            "questionText": "What material should we use to make an umbrella?",
+            "options": ["Paper", "Waterproof plastic or fabric", "Wood", "Metal"],
+            "answer": "Waterproof plastic or fabric",
+            "hint": "We need something that keeps the rain away and is light to carry."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Why don't we make a soup bowl out of paper?",
+            "options": ["Because paper is waterproof.", "Because it will get wet, soft, and break.", "Because paper is see-through.", "Because paper is too hard."],
+            "answer": "Because it will get wet, soft, and break.",
+            "hint": "Paper and water do not mix well!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Can a material change into another material?",
+            "options": ["Yes", "No"],
+            "answer": "Yes",
+            "hint": "Think about what happens to paper when it touches fire."
+        },
+        {
+            "type": "short",
+            "questionText": "If we B _ _ N wood in a fire, it will change into something new.",
+            "answer": ["burn", "Burn"],
+            "hint": "To put it in fire. Type: burn"
+        },
+        {
+            "type": "short",
+            "questionText": "When wood burns, it changes into a grey powder called A _ _.",
+            "answer": ["ash", "Ash"],
+            "hint": "Type: ash"
+        },
+        {
+            "type": "short",
+            "questionText": "When some strong metals get wet and old, they turn reddish-brown. This is called R _ _ _.",
+            "answer": ["rust", "Rust"],
+            "hint": "Type: rust"
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the science words to their meanings!",
+            "pairs": [
+                {"left": "See-through", "right": "Clear, like a window"},
+                {"left": "Strong", "right": "Hard to break"},
+                {"left": "Manufactured", "right": "Made by humans"},
+                {"left": "Test", "right": "An experiment to find out"}
+            ],
+            "hint": "Read carefully!"
+        },
+        {
+            "type": "long",
+            "questionText": "Look around your room! Find ONE object, name its material, and write ONE property it has. <br>(Example: My window is made of glass. It is see-through.)",
+            "answer": ["is", "made", "of", "it", "plastic", "wood", "glass", "metal", "fabric", "cotton", "paper", "hard", "soft", "smooth", "strong", "see-through", "flexible", "light"],
+            "hint": "Write a full sentence describing an object near you."
+        }
+    ]
+}
