@@ -1,0 +1,162 @@
+{
+    "title": "Math: Patterns and Chance 🎲",
+    "summary": "<b>1. What is a Pattern?</b><br>A pattern is something that repeats following a rule. Because it has a clear rule, we call it a <b>Regular Pattern</b>.<br>• Example (Emojis): 🍎🍌🍎🍌🍎🍌<br>• Example (Numbers): 2, 4, 6, 8, 10<br><br><b>2. Random (No Rule)</b><br>If things are mixed up and have no repeating rule, it is a <b>Random Pattern</b>.<br>• Example: 🚗⭐🍎🎈🥦 (No rule!)<br><br><b>3. Chance (Will it happen?)</b><br>We use these 3 words to talk about chance:<br>• <b>Always:</b> It happens 100% of the time. (The sun will set tonight).<br>• <b>Sometimes:</b> It might happen, but it might not. (You will eat pizza for dinner).<br>• <b>Never:</b> It is impossible. It will 0% happen. (A pig will fly).",
+    "questions": [
+        {
+            "type": "mcq",
+            "questionText": "Look at the emoji pattern: ☀️🌙☀️🌙☀️___<br>What comes next?",
+            "options": ["☀️", "🌙", "⭐", "☁️"],
+            "answer": "🌙",
+            "hint": "The rule is Sun, Moon, Sun, Moon..."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the pattern: 🔴🔵🔵🔴🔵🔵🔴___<br>What comes next?",
+            "options": ["🔴", "🔵", "🟡", "🟢"],
+            "answer": "🔵",
+            "hint": "The rule is ONE red, TWO blues."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Find the missing emoji: 🐶🐱🐭 🐶🐱🐭 🐶___🐭",
+            "options": ["🐶", "🐱", "🐭", "🐰"],
+            "answer": "🐱",
+            "hint": "What animal comes between the dog and the mouse?"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the letter pattern: <b>A A B A A B A A ___</b><br>What letter comes next?",
+            "options": ["A", "B", "C", "D"],
+            "answer": "B",
+            "hint": "The rule is two A's, then one B."
+        },
+        {
+            "type": "short",
+            "questionText": "Look at the letter pattern: <b>X Y Z X Y Z X ___ Z</b><br>What is the missing letter?",
+            "answer": ["Y", "y"],
+            "hint": "Type: Y"
+        },
+        {
+            "type": "short",
+            "questionText": "Complete the number pattern: <b>2, 4, 6, 8, ___</b>",
+            "answer": ["10"],
+            "hint": "We are counting by 2s!"
+        },
+        {
+            "type": "short",
+            "questionText": "Complete the number pattern: <b>10, 20, 30, 40, ___</b>",
+            "answer": ["50"],
+            "hint": "We are counting by 10s!"
+        },
+        {
+            "type": "short",
+            "questionText": "Find the missing number in the pattern: <b>5, 10, 15, ___, 25</b>",
+            "answer": ["20"],
+            "hint": "We are counting by 5s!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at these emojis: 🍕🎸⚽🚗🌻<br>What kind of pattern is this?",
+            "options": ["It is a Regular pattern", "It is a Random pattern"],
+            "answer": "It is a Random pattern",
+            "hint": "Can you guess what comes next? If there is no rule, it is random!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at these numbers: <b>1, 8, 3, 9, 2</b><br>Is this a Random or Regular pattern?",
+            "options": ["Random", "Regular"],
+            "answer": "Random",
+            "hint": "Is there a counting rule? If no, it is random."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at these letters: <b>A B A B A B</b><br>Is this a Random or Regular pattern?",
+            "options": ["Random", "Regular"],
+            "answer": "Regular",
+            "hint": "It repeats perfectly! A, then B, then A..."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick ALL the sequences that are <b>REGULAR</b> (They have a clear repeating rule)!",
+            "options": [
+                "🍎🍌🍎🍌🍎🍌",
+                "🚗🎈🥦⭐🍕",
+                "10, 20, 30, 40",
+                "1, 7, 2, 9, 4"
+            ],
+            "answer": [
+                "🍎🍌🍎🍌🍎🍌",
+                "10, 20, 30, 40"
+            ],
+            "hint": "Choose 2 sequences where you know exactly what comes next."
+        },
+        {
+            "type": "mcq",
+            "questionText": "A dog will speak English to you today. Will this happen?",
+            "options": ["Always", "Sometimes", "Never"],
+            "answer": "Never",
+            "hint": "Dogs cannot speak human languages!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "The sun will rise tomorrow morning. Will this happen?",
+            "options": ["Always", "Sometimes", "Never"],
+            "answer": "Always",
+            "hint": "It happens 100% every single day."
+        },
+        {
+            "type": "mcq",
+            "questionText": "You have a bag full of <b>ONLY Red marbles</b>. Will you pick a Red marble?",
+            "options": ["Always", "Sometimes", "Never"],
+            "answer": "Always",
+            "hint": "If there are only red marbles, you can't pick anything else!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "You have a bag with <b>Red AND Blue marbles</b>. Will you pick a Blue marble?",
+            "options": ["Always", "Sometimes", "Never"],
+            "answer": "Sometimes",
+            "hint": "You might pick a Blue one, but you also might pick a Red one."
+        },
+        {
+            "type": "mcq",
+            "questionText": "You roll a normal 6-sided dice (🎲). Will you roll a number <b>7</b>?",
+            "options": ["Always", "Sometimes", "Never"],
+            "answer": "Never",
+            "hint": "A dice only goes up to 6!"
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the Chance Words to their meanings!",
+            "pairs": [
+                {"left": "Always", "right": "It happens 100% of the time"},
+                {"left": "Sometimes", "right": "It might happen, or might not"},
+                {"left": "Never", "right": "It is impossible (0%)"},
+                {"left": "Chance", "right": "How likely something will happen"}
+            ],
+            "hint": "Read carefully and think about the percentages."
+        },
+        {
+            "type": "mcq",
+            "questionText": "It is cloudy and grey outside. Will it rain?",
+            "options": ["Always", "Sometimes", "Never"],
+            "answer": "Sometimes",
+            "hint": "Grey clouds usually mean rain, but sometimes the wind blows them away."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick ALL the events that will <b>NEVER</b> happen!",
+            "options": [
+                "A fish walking on a road with shoes.",
+                "Rolling a 3 on a normal dice.",
+                "An elephant flying like a bird.",
+                "It raining tomorrow."
+            ],
+            "answer": [
+                "A fish walking on a road with shoes.",
+                "An elephant flying like a bird."
+            ],
+            "hint": "Select 2 things that are completely impossible in real life."
+        }
+    ]
+}

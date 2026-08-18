@@ -1,0 +1,169 @@
+{
+    "title": "English: PE Week & Past Tense 🏀",
+    "summary": "<b>1. Play, Go, and Do (Sports)</b><br>• Use <b>Play</b> for ball sports (<i>basketball, tennis, volleyball, football</i>).<br>• Use <b>Go</b> for activities ending in -ing (<i>running, swimming, climbing</i>).<br>• Use <b>Do</b> for exercises or martial arts (<i>karate, yoga</i>).<br><br><b>2. Past Tense (Yesterday / Last Week)</b><br>When we talk about the past, verbs change!<br>• <b>Go</b> ➔ <b>Went</b> (<i>I went swimming</i>)<br>• <b>Do</b> ➔ <b>Did</b> (<i>I did yoga</i>)<br>• <b>Play</b> ➔ <b>Played</b> (<i>I played tennis</i>)<br><br><b>3. Regular Past Tense Spelling Rules</b><br>• Add <b>+ed</b>: jump ➔ jumped.<br>• Add <b>+d</b> (if it ends in 'e'): dance ➔ danced.<br>• Drop 'y' and add <b>+ied</b>: carry ➔ carried.<br><br><b>4. Making Negative (-) and Questions (?)</b><br>• Negative: Use <b>didn't + Base Verb</b> (<i>I didn't play football.</i>)<br>• Question: Use <b>Did + Subject + Base Verb</b> (<i>Did you go running?</i>)<br><br><b>5. With vs For</b><br>• Use <b>with</b> for people (<i>with my brother</i>).<br>• Use <b>for</b> for time (<i>for one hour</i>).",
+    "questions": [
+        {
+            "type": "matching",
+            "questionText": "Match the sports to the correct verbs (Present Tense)!",
+            "pairs": [
+                {"left": "Basketball", "right": "Play"},
+                {"left": "Running", "right": "Go"},
+                {"left": "Yoga", "right": "Do"}
+            ],
+            "hint": "Play is for balls. Go is for '-ing'. Do is for exercise."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the Present Tense words to their Past Tense words!",
+            "pairs": [
+                {"left": "Play", "right": "Played"},
+                {"left": "Go", "right": "Went"},
+                {"left": "Do", "right": "Did"}
+            ],
+            "hint": "How do we say these words when they happened yesterday?"
+        },
+        {
+            "type": "mcq",
+            "questionText": "During PE week, we ______ basketball in the gym.",
+            "options": ["played", "went", "did"],
+            "answer": "played",
+            "hint": "Basketball uses a ball, so we use the past tense of 'play'."
+        },
+        {
+            "type": "mcq",
+            "questionText": "On Tuesday, my sister ______ swimming at the pool.",
+            "options": ["played", "went", "did"],
+            "answer": "went",
+            "hint": "Swimming ends in '-ing', so we use the past tense of 'go'."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Yesterday, the children ______ karate.",
+            "options": ["played", "went", "did"],
+            "answer": "did",
+            "hint": "Karate is a martial art, so we use the past tense of 'do'."
+        },
+        {
+            "type": "short",
+            "questionText": "Write the correct past tense word in the blank space: We _______ volleyball on the beach. (play)",
+            "answer": ["played", "Played"],
+            "hint": "Add +ed to 'play'."
+        },
+        {
+            "type": "short",
+            "questionText": "Write the correct past tense word in the blank space: I _______ climbing yesterday. (go)",
+            "answer": ["went", "Went"],
+            "hint": "The past tense of 'go' is completely different! It starts with 'w'."
+        },
+        {
+            "type": "short",
+            "questionText": "Write the correct past tense word in the blank space: She _______ yoga in the morning. (do)",
+            "answer": ["did", "Did"],
+            "hint": "The past tense of 'do' is a short word starting with 'd'."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct spelling rule: Last week, I (walk) ______ to the park.",
+            "options": ["walkd", "walked", "walkied", "walk"],
+            "answer": "walked",
+            "hint": "For most words, we just add +ed."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct spelling rule: We (dance) ______ at the party.",
+            "options": ["danceed", "danced", "dancied", "dancing"],
+            "answer": "danced",
+            "hint": "If the word already ends in 'e', just add +d."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose the correct spelling rule: The baby (cry) ______ last night.",
+            "options": ["cryed", "cryd", "cried", "crying"],
+            "answer": "cried",
+            "hint": "Drop the 'y' and add +ied."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Negative Past Tense: I played tennis. ➔ I ______ tennis.",
+            "options": ["didn't play", "didn't played", "don't played", "not played"],
+            "answer": "didn't play",
+            "hint": "After 'didn't', the verb goes back to its normal shape (base verb)."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Negative Past Tense: She went running. ➔ She didn't ______ running.",
+            "options": ["went", "goes", "go", "going"],
+            "answer": "go",
+            "hint": "After 'didn't', 'went' turns back into its normal shape."
+        },
+        {
+            "type": "short",
+            "questionText": "Make a question using 'Did': You played football. ➔ ______ you play football?",
+            "answer": ["Did", "did"],
+            "hint": "To ask a past tense question, start with this 3-letter word."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Make a question: ______ he do karate yesterday?",
+            "options": ["Do", "Does", "Did", "Is"],
+            "answer": "Did",
+            "hint": "Yesterday is in the past, so we use the past tense question word."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose 'with' or 'for': I played tennis ______ my best friend.",
+            "options": ["with", "for"],
+            "answer": "with",
+            "hint": "Use this word when doing something together with a person."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Choose 'with' or 'for': I went swimming ______ two hours.",
+            "options": ["with", "for"],
+            "answer": "for",
+            "hint": "Use this word to talk about how much time has passed."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick ALL the sentences that are CORRECT in the Past Tense!",
+            "options": [
+                "I played basketball.",
+                "She went running.",
+                "He didn't played tennis.",
+                "We did yoga."
+            ],
+            "answer": [
+                "I played basketball.",
+                "She went running.",
+                "We did yoga."
+            ],
+            "hint": "One sentence is wrong! Remember, after 'didn't', no +ed!"
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the sport! (You hit the ball over a high net)",
+            "word": "VOLLEYBALL",
+            "blanks": [1, 4, 6, 8],
+            "hint": "V _ L L _ Y _ A _ L"
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters to complete the sport! (You bounce the ball and throw it in a hoop)",
+            "word": "BASKETBALL",
+            "blanks": [2, 5, 7],
+            "hint": "B A _ K E _ B _ L L"
+        },
+        {
+            "type": "short",
+            "questionText": "Unscramble the letters to make a past tense word: <b>l a d e y p</b>",
+            "answer": ["played", "Played"],
+            "hint": "The past tense of play."
+        },
+        {
+            "type": "long",
+            "questionText": "Write a sentence about what you did in PE week! <br>(Example: I played football with my friends.)",
+            "answer": ["I", "played", "went", "did", "with", "for", "tennis", "basketball", "volleyball", "running", "swimming", "climbing", "football", "karate", "yoga"],
+            "hint": "Start with 'I', then use 'played', 'went', or 'did'."
+        }
+    ]
+}
