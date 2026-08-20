@@ -1,0 +1,188 @@
+{
+    "title": "Math: Number Patterns & Even/Odd 🚂",
+    "summary": "<b>1. Even and Odd Numbers</b><br>• <b>EVEN (Genap):</b> Numbers that can be shared equally by 2. They always end in <b>0, 2, 4, 6, or 8</b>.<br>• <b>ODD (Ganjil):</b> Numbers that have 1 left over when shared by 2. They always end in <b>1, 3, 5, 7, or 9</b>.<br><br><b>2. Making Numbers with Digit Cards</b><br>If you have cards [ 3 ] and [ 8 ]: <br>• The largest number is 83 (Odd).<br>• The smallest number is 38 (Even).<br><br><b>3. Number Sequences</b><br>A number sequence is a list of numbers that follow a rule. We can count forwards or backwards by 1s, 2s, 5s, or 10s up to 100!",
+    "questions": [
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters! Numbers that end in 0, 2, 4, 6, or 8 are called ______ numbers.",
+            "word": "EVEN",
+            "blanks": [1, 2],
+            "hint": "E _ E _"
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters! Numbers that end in 1, 3, 5, 7, or 9 are called ______ numbers.",
+            "word": "ODD",
+            "blanks": [1, 2],
+            "hint": "O _ _"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the number <b>14</b>. Is it an Even or Odd number?",
+            "options": ["Even", "Odd"],
+            "answer": "Even",
+            "hint": "Look at the last digit. It is a 4."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the number <b>27</b>. Is it an Even or Odd number?",
+            "options": ["Even", "Odd"],
+            "answer": "Odd",
+            "hint": "Look at the last digit. It is a 7."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the numbers to the correct group (Even or Odd)!",
+            "pairs": [
+                {"left": "32", "right": "Even"},
+                {"left": "80", "right": "Even"},
+                {"left": "45", "right": "Odd"},
+                {"left": "99", "right": "Odd"}
+            ],
+            "hint": "Look closely at the last digit of each number."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Group the EVEN numbers! Tick ALL the <b>EVEN</b> numbers in this list.",
+            "options": [
+                "12",
+                "15",
+                "28",
+                "41",
+                "50"
+            ],
+            "answer": [
+                "12",
+                "28",
+                "50"
+            ],
+            "hint": "Select 3 numbers that end in 0, 2, 4, 6, or 8."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Group the ODD numbers! Tick ALL the <b>ODD</b> numbers in this list.",
+            "options": [
+                "11",
+                "24",
+                "37",
+                "60",
+                "89"
+            ],
+            "answer": [
+                "11",
+                "37",
+                "89"
+            ],
+            "hint": "Select 3 numbers that end in 1, 3, 5, 7, or 9."
+        },
+        {
+            "type": "short",
+            "questionText": "You have two digit cards: <b>[ 5 ]</b> and <b>[ 2 ]</b>. <br>Make the <b>LARGEST</b> 2-digit number.",
+            "answer": ["52"],
+            "hint": "Put the biggest digit first."
+        },
+        {
+            "type": "short",
+            "questionText": "You have two digit cards: <b>[ 3 ]</b> and <b>[ 8 ]</b>. <br>Make the <b>SMALLEST</b> 2-digit number.",
+            "answer": ["38"],
+            "hint": "Put the smallest digit first."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at these three digit cards: <b>[ 4 ] , [ 7 ] , [ 2 ]</b>.<br>What is the <b>LARGEST 2-digit ODD number</b> you can make?",
+            "options": ["74", "72", "47", "27"],
+            "answer": "47",
+            "hint": "It must be an ODD number, so it must end in 7. Which is bigger: 47 or 27?"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at these three digit cards: <b>[ 1 ] , [ 9 ] , [ 6 ]</b>.<br>What is the <b>SMALLEST 2-digit EVEN number</b> you can make?",
+            "options": ["96", "61", "16", "19"],
+            "answer": "16",
+            "hint": "It must be an EVEN number, so it must end in 6. Put the smallest number at the front!"
+        },
+        {
+            "type": "short",
+            "questionText": "You have two digit cards: <b>[ 9 ]</b> and <b>[ 4 ]</b>.<br>Use both cards to make a 2-digit <b>EVEN</b> number.",
+            "answer": ["94"],
+            "hint": "To make it even, it must end in 4."
+        },
+        {
+            "type": "short",
+            "questionText": "Complete the sequence: <b>12, 14, 16, ___, 20</b>",
+            "answer": ["18"],
+            "hint": "We are counting forwards by 2s."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at this sequence: <b>2, 4, 6, 8, 10</b>.<br>Are these numbers all Even or all Odd?",
+            "options": ["All Even", "All Odd"],
+            "answer": "All Even",
+            "hint": "Look at how they end."
+        },
+        {
+            "type": "short",
+            "questionText": "Complete the sequence: <b>21, 23, 25, ___, 29</b>",
+            "answer": ["27"],
+            "hint": "We are counting odd numbers forwards by 2s."
+        },
+        {
+            "type": "short",
+            "questionText": "Complete the sequence: <b>35, 40, 45, ___, 55</b>",
+            "answer": ["50"],
+            "hint": "We are counting forwards by 5s."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Find the missing number: <b>60, 70, 80, ___, 100</b>",
+            "options": ["85", "90", "95", "110"],
+            "answer": "90",
+            "hint": "We are counting forwards by 10s."
+        },
+        {
+            "type": "short",
+            "questionText": "Complete the sequence BACKWARDS: <b>50, 48, 46, ___</b>",
+            "answer": ["44"],
+            "hint": "Count backwards by 2."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Complete the sequence BACKWARDS: <b>90, 80, 70, ___</b>",
+            "options": ["60", "75", "85", "100"],
+            "answer": "60",
+            "hint": "Count backwards by 10."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the sequences to their rules!",
+            "pairs": [
+                {"left": "10, 20, 30", "right": "Count by 10 forwards"},
+                {"left": "25, 30, 35", "right": "Count by 5 forwards"},
+                {"left": "8, 6, 4", "right": "Count by 2 backwards"},
+                {"left": "40, 30, 20", "right": "Count by 10 backwards"}
+            ],
+            "hint": "Look at how the numbers are changing."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick ALL the numbers that belong in this pattern (Counting by 10s):<br><b>10, 20, 30...</b>",
+            "options": [
+                "40",
+                "45",
+                "50",
+                "52"
+            ],
+            "answer": [
+                "40",
+                "50"
+            ],
+            "hint": "Select 2 numbers that end in a zero."
+        },
+        {
+            "type": "short",
+            "questionText": "Find the missing number in this sequence up to 100: <b>85, 90, 95, ___</b>",
+            "answer": ["100"],
+            "hint": "What is 5 more than 95?"
+        }
+    ]
+}
