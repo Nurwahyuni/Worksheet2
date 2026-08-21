@@ -1,0 +1,210 @@
+{
+    "title": "Math: The Place Value 🔟",
+    "summary": "<b>1. Tens and Ones</b><br>We can group numbers into <b>Tens</b> (groups of 10) and <b>Ones</b> (singles).<br>• Example: 34 is <b>3 Tens</b> (30) and <b>4 Ones</b> (4).<br><br><b>2. Compose and Decompose</b><br>We can break numbers apart or put them together.<br>• 50 + 2 = 52<br>• 87 = 80 + 7<br><br><b>3. Comparing Numbers</b><br>To find which number is greater (bigger), always look at the <b>Tens place</b> first!<br>• <b>7</b>2 is greater than <b>5</b>9 because 7 tens is more than 5 tens.<br><br><b>4. Rounding to the Nearest 10</b><br>Look at the Ones digit to round a number:<br>• If it ends in <b>1, 2, 3, 4</b> ➔ Round DOWN (Stay in the same ten. 32 ➔ 30).<br>• If it ends in <b>5, 6, 7, 8, 9</b> ➔ Round UP (Go to the next ten. 38 ➔ 40).",
+    "questions": [
+        {
+            "type": "short",
+            "questionText": "Write the numeral: <b>3 tens and 4 ones = ___</b>",
+            "answer": ["34"],
+            "hint": "Put the 3 and the 4 together."
+        },
+        {
+            "type": "short",
+            "questionText": "Write the numeral: <b>5 tens and 8 ones = ___</b>",
+            "answer": ["58"],
+            "hint": "Put the 5 and the 8 together."
+        },
+        {
+            "type": "short",
+            "questionText": "Write the numeral: <b>9 tens and 0 ones = ___</b>",
+            "answer": ["90"],
+            "hint": "It is exactly ninety."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the emojis! Let 📦 = 10 (Ten) and 🍎 = 1 (One).<br><br>📦📦📦 🍎🍎<br><br>What number is this?",
+            "options": ["32", "23", "5", "30"],
+            "answer": "32",
+            "hint": "There are 3 boxes of ten and 2 single apples."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the emojis! Let 📦 = 10 (Ten) and 🍎 = 1 (One).<br><br>📦📦📦📦 🍎🍎🍎🍎🍎<br><br>What number is this?",
+            "options": ["54", "45", "9", "40"],
+            "answer": "45",
+            "hint": "Count the tens (4) and the ones (5)."
+        },
+        {
+            "type": "short",
+            "questionText": "Compose the number: <b>60 + 7 = ___</b>",
+            "answer": ["67"],
+            "hint": "Add them together!"
+        },
+        {
+            "type": "short",
+            "questionText": "Decompose the number: <b>45 = 40 + ___</b>",
+            "answer": ["5"],
+            "hint": "What is missing in the ones place?"
+        },
+        {
+            "type": "short",
+            "questionText": "Compose the number: <b>___ = 80 + 2</b>",
+            "answer": ["82"],
+            "hint": "Put the tens and ones together."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Decompose the number 93! <b>93 = ___ + ___</b>",
+            "options": ["9 + 3", "90 + 30", "90 + 3", "30 + 9"],
+            "answer": "90 + 3",
+            "hint": "Separate the tens value and the ones value."
+        },
+        {
+            "type": "short",
+            "questionText": "Find the missing part: <b>74 = ___ + 4</b>",
+            "answer": ["70"],
+            "hint": "What is the value of the 7 in 74?"
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Regroup to make <b>25</b>! Tick ALL the numbers you need to add together to make 25.",
+            "options": [
+                "10",
+                "10",
+                "5",
+                "2"
+            ],
+            "answer": [
+                "10",
+                "10",
+                "5"
+            ],
+            "hint": "You need two tens and a five."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Regroup to make <b>42</b>! Tick ALL the numbers you need to add together to make 42.",
+            "options": [
+                "20",
+                "20",
+                "10",
+                "2"
+            ],
+            "answer": [
+                "20",
+                "20",
+                "2"
+            ],
+            "hint": "20 + 20 makes 40. What else do you need?"
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Regroup to make <b>36</b>! Tick ALL the numbers you need to add together to make 36.",
+            "options": [
+                "10",
+                "20",
+                "6",
+                "1"
+            ],
+            "answer": [
+                "10",
+                "20",
+                "6"
+            ],
+            "hint": "Select 3 numbers that add up to 36."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Regroup to make <b>53</b>! Tick ALL the numbers you need to add together to make 53.",
+            "options": [
+                "30",
+                "20",
+                "3",
+                "10"
+            ],
+            "answer": [
+                "30",
+                "20",
+                "3"
+            ],
+            "hint": "30 + 20 makes 50. Then add the ones!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Which group of numbers makes exactly <b>48</b>?",
+            "options": ["40 and 18", "30 and 8", "40 and 8", "4 and 8"],
+            "answer": "40 and 8",
+            "hint": "Look for 4 tens and 8 ones."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Compare the numbers. Which number is <b>GREATER</b> (bigger)?",
+            "options": ["74", "47"],
+            "answer": "74",
+            "hint": "Look at the tens digit. 7 is bigger than 4."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Compare the numbers. Which number is <b>LESS</b> (smaller)?",
+            "options": ["39", "93"],
+            "answer": "39",
+            "hint": "Look at the tens digit. 3 is smaller than 9."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the number <b>62</b>. What is the value of the <b>6</b>?",
+            "options": ["6", "60", "2", "62"],
+            "answer": "60",
+            "hint": "The 6 is in the Tens place."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the number <b>85</b>. What digit is in the <b>Ones</b> place?",
+            "options": ["8", "5", "80", "50"],
+            "answer": "5",
+            "hint": "The ones place is the last number on the right."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Order these numbers from <b>SMALLEST to LARGEST</b>: 51, 15, 25",
+            "options": ["51, 25, 15", "15, 25, 51", "15, 51, 25", "25, 15, 51"],
+            "answer": "15, 25, 51",
+            "hint": "Find the smallest ten first!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Round <b>32</b> to the nearest 10.",
+            "options": ["30", "40"],
+            "answer": "30",
+            "hint": "The ones digit is 2, so we round DOWN to 30."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Round <b>48</b> to the nearest 10.",
+            "options": ["40", "50"],
+            "answer": "50",
+            "hint": "The ones digit is 8, so we round UP to the next ten."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Round <b>65</b> to the nearest 10.",
+            "options": ["60", "70"],
+            "answer": "70",
+            "hint": "Numbers ending in 5 always round UP!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Round <b>13</b> to the nearest 10.",
+            "options": ["10", "20"],
+            "answer": "10",
+            "hint": "3 is a small number, so it falls back down to 10."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Which of these numbers rounds UP to <b>40</b>?",
+            "options": ["32", "38", "45", "42"],
+            "answer": "38",
+            "hint": "Find a number in the 30s that is very close to 40."
+        }
+    ]
+}

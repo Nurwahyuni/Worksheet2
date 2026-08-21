@@ -1,0 +1,177 @@
+{
+    "title": "Math: 2D and 3D Shapes 🧊",
+    "summary": "<b>1. 2D Shapes (Flat)</b><br>2D shapes are flat. We sort them by the number of <b>sides</b> and <b>corners</b>.<br>• 🔵 <b>Circle:</b> 1 curved side, 0 corners.<br>• <b>Polygons:</b> Flat shapes with straight sides. <br>  - ⬟ <i>Pentagon</i> (5 sides)<br>  - ⬣ <i>Hexagon</i> (6 sides)<br>  - 🛑 <i>Octagon</i> (8 sides)<br><br><b>2. Line of Symmetry 🦋</b><br>A line of symmetry is a line that cuts a shape exactly in half. Both sides match perfectly like a mirror!<br><br><b>3. 3D Shapes (Solid)</b><br>3D shapes are fat, not flat! They have <b>faces</b> (flat sides), <b>edges</b>, and <b>vertices</b> (corners).<br>• 🧊 <b>Cube:</b> 6 square faces (like a dice).<br>• 📦 <b>Cuboid:</b> 6 rectangular faces (like a box).<br>• 🥫 <b>Cylinder:</b> 2 flat circles and 1 curved face (like a tin can).<br>• 🎉 <b>Cone:</b> 1 flat circle and 1 curved face coming to a point (like a party hat).",
+    "questions": [
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters! We sort 2D shapes by the number of corners and...",
+            "word": "SIDES",
+            "blanks": [1, 2, 3],
+            "hint": "The straight lines on the outside of a shape. S _ _ _ S"
+        },
+        {
+            "type": "mcq",
+            "questionText": "I am a 2D shape. I have <b>1 curved side</b> and <b>0 corners</b>. What am I?",
+            "options": ["Square 🟦", "Circle 🔵", "Triangle 🔺", "Hexagon ⬣"],
+            "answer": "Circle 🔵",
+            "hint": "It goes round and round!"
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the <b>Polygons</b> to their number of sides!",
+            "pairs": [
+                {"left": "Triangle 🔺", "right": "3 sides"},
+                {"left": "Pentagon ⬟", "right": "5 sides"},
+                {"left": "Hexagon ⬣", "right": "6 sides"},
+                {"left": "Octagon 🛑", "right": "8 sides"}
+            ],
+            "hint": "An octopus has 8 legs, an octagon has 8 sides!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at a Stop Sign (🛑). How many straight sides does it have?",
+            "options": ["5 (Pentagon)", "6 (Hexagon)", "8 (Octagon)", "10"],
+            "answer": "8 (Octagon)",
+            "hint": "Count the edges of the red stop sign!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "What is a <b>Line of Symmetry</b>?",
+            "options": ["A line that makes a shape colorful.", "A line that cuts a shape into two EXACTLY matching halves.", "A line that has no corners.", "A wavy line."],
+            "answer": "A line that cuts a shape into two EXACTLY matching halves.",
+            "hint": "Think of a butterfly's wings. They are perfectly the same on both sides!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "If you fold a perfect Square (🟦) in half, do the two sides match exactly?",
+            "options": ["Yes, it has lines of symmetry.", "No, it is not symmetrical."],
+            "answer": "Yes, it has lines of symmetry.",
+            "hint": "A square is perfectly even on all sides."
+        },
+        {
+            "type": "short",
+            "questionText": "Rearrange the letters to name a 3D shape: <b>b c u e</b>",
+            "answer": ["cube", "Cube"],
+            "hint": "It looks like a dice! Type: cube"
+        },
+        {
+            "type": "short",
+            "questionText": "Rearrange the letters to name a 3D shape: <b>n e c o</b>",
+            "answer": ["cone", "Cone"],
+            "hint": "It looks like a party hat! Type: cone"
+        },
+        {
+            "type": "short",
+            "questionText": "Rearrange the letters to name a 3D shape: <b>d i o b u c</b>",
+            "answer": ["cuboid", "Cuboid"],
+            "hint": "It looks like a shoe box! Type: cuboid"
+        },
+        {
+            "type": "short",
+            "questionText": "Rearrange the letters to name a 3D shape: <b>l y i n d c r e</b>",
+            "answer": ["cylinder", "Cylinder"],
+            "hint": "It looks like a tin of baked beans! Type: cylinder"
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the object: 🎲 (Dice). What 3D shape is this?",
+            "options": ["Cuboid", "Cube", "Sphere", "Cylinder"],
+            "answer": "Cube",
+            "hint": "All of its faces are perfect squares."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the object: 🥫 (Soup Can). What 3D shape is this?",
+            "options": ["Cylinder", "Cone", "Cube", "Cuboid"],
+            "answer": "Cylinder",
+            "hint": "It has circle faces on the top and bottom."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the object: 🍕 (A slice of pizza). What <b>2D shape</b> does this look like?",
+            "options": ["Square 🟦", "Circle 🔵", "Triangle 🔺", "Hexagon ⬣"],
+            "answer": "Triangle 🔺",
+            "hint": "It has 3 sides and 3 corners."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the object: 🎉 (Party Hat). What 3D shape is this?",
+            "options": ["Cylinder", "Pyramid", "Cone", "Sphere"],
+            "answer": "Cone",
+            "hint": "It has a point at the top and a circle at the bottom."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at the object: 🎁 (A rectangular gift box). What 3D shape is this?",
+            "options": ["Cuboid", "Cube", "Cylinder", "Cone"],
+            "answer": "Cuboid",
+            "hint": "It is long and boxy, not a perfect square."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Let's Sort! Tick ALL the 3D shapes that can <b>ROLL</b>!",
+            "options": [
+                "Cylinder 🥫",
+                "Cube 🧊",
+                "Sphere ⚽",
+                "Cone 🎉",
+                "Cuboid 📦"
+            ],
+            "answer": [
+                "Cylinder 🥫",
+                "Sphere ⚽",
+                "Cone 🎉"
+            ],
+            "hint": "To roll, a shape must have a curved face. Select 3 shapes."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Let's Sort! Tick ALL the 3D shapes that can <b>STACK</b> (sit perfectly on top of each other)!",
+            "options": [
+                "Cube 🧊",
+                "Cuboid 📦",
+                "Sphere ⚽",
+                "Cylinder 🥫"
+            ],
+            "answer": [
+                "Cube 🧊",
+                "Cuboid 📦",
+                "Cylinder 🥫"
+            ],
+            "hint": "To stack, a shape must have flat faces. Select 3 shapes."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the 3D shape to its description!",
+            "pairs": [
+                {"left": "Cube 🧊", "right": "6 square faces"},
+                {"left": "Cylinder 🥫", "right": "2 circle faces and 1 curved face"},
+                {"left": "Cone 🎉", "right": "1 point at the top and 1 circle face"},
+                {"left": "Sphere ⚽", "right": "No flat faces, completely round"}
+            ],
+            "hint": "Read the clues carefully to match the shapes."
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick ALL the shapes that have <b>4 straight sides</b>!",
+            "options": [
+                "Square 🟦",
+                "Rectangle ▭",
+                "Triangle 🔺",
+                "Pentagon ⬟"
+            ],
+            "answer": [
+                "Square 🟦",
+                "Rectangle ▭"
+            ],
+            "hint": "Select 2 shapes that are made of exactly 4 sides."
+        },
+        {
+            "type": "mcq",
+            "questionText": "I am a 2D shape. I have <b>6 straight sides</b> and <b>6 corners</b>. What am I?",
+            "options": ["Hexagon ⬣", "Octagon 🛑", "Pentagon ⬟", "Triangle 🔺"],
+            "answer": "Hexagon ⬣",
+            "hint": "Hexagon has an 'x', just like the number six!"
+        }
+    ]
+}

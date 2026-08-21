@@ -1,0 +1,164 @@
+{
+    "title": "Math: Multiplication ✖️",
+    "summary": "<b>1. What is Multiplication?</b><br>Multiplication is a quick way to add the same number again and again. The symbol is <b>✖️ (times)</b>.<br>• 2 + 2 + 2 is the same as <b>3 groups of 2</b> or <b>3 x 2 = 6</b>.<br><br><b>2. Equal Groups & Arrays</b><br>• <b>Equal Groups:</b> Putting things in boxes with the same amount. Example: 2 boxes with 3 apples is 2 x 3.<br>• <b>Arrays:</b> Arranging things in neat rows and columns. <br><br><b>3. Number Lines</b><br>You can multiply by skipping numbers on a number line!<br>• Jumps of 2: 0 ➔ 2 ➔ 4 ➔ 6 (3 jumps of 2 is 6).<br><br><b>4. Times Tables to know!</b><br>Practice your <b>1, 2, 3, and 10</b> times tables!",
+    "questions": [
+        {
+            "type": "mcq",
+            "questionText": "Look at these boxes of apples:<br><br><b>[ 🍎 🍎 ] &nbsp; [ 🍎 🍎 ] &nbsp; [ 🍎 🍎 ]</b><br><br>This shows 3 groups of 2. What is <b>3 x 2</b>?",
+            "options": ["4", "5", "6", "8"],
+            "answer": "6",
+            "hint": "Count all the apples inside the boxes!"
+        },
+        {
+            "type": "short",
+            "questionText": "Look at these boxes of cookies:<br><br><b>[ 🍪 🍪 🍪 ] &nbsp; [ 🍪 🍪 🍪 ]</b><br><br>This shows 2 groups of 3. <b>2 x 3 = ___</b>",
+            "answer": ["6"],
+            "hint": "Add 3 + 3."
+        },
+        {
+            "type": "short",
+            "questionText": "Look at these boxes of donuts:<br><br><b>[ 🍩 🍩 ] &nbsp; [ 🍩 🍩 ] &nbsp; [ 🍩 🍩 ] &nbsp; [ 🍩 🍩 ]</b><br><br>This shows 4 groups of 2. <b>4 x 2 = ___</b>",
+            "answer": ["8"],
+            "hint": "Count by 2s: 2, 4, 6..."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Which addition sum is exactly the same as <b>5 x 10</b>?",
+            "options": ["5 + 10", "10 + 10 + 10 + 10 + 10", "5 + 5 + 5", "10 + 5"],
+            "answer": "10 + 10 + 10 + 10 + 10",
+            "hint": "5 groups of 10."
+        },
+        {
+            "type": "mcq",
+            "questionText": "Look at this <b>Array</b> of stars:<br>⭐⭐⭐⭐<br>⭐⭐⭐⭐<br><br>How many rows and columns is this?",
+            "options": ["2 rows of 4 (2 x 4)", "4 rows of 4 (4 x 4)", "2 rows of 2 (2 x 2)", "3 rows of 4 (3 x 4)"],
+            "answer": "2 rows of 4 (2 x 4)",
+            "hint": "Count how many rows go across, and how many stars are in each row."
+        },
+        {
+            "type": "short",
+            "questionText": "Look at this Array of hearts:<br>❤️❤️❤️<br>❤️❤️❤️<br>❤️❤️❤️<br><br>This is 3 rows of 3. What is <b>3 x 3 = ___</b>?",
+            "answer": ["9"],
+            "hint": "Count all the hearts in the array!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "A frog jumps on a <b>number line</b> counting by 2s:<br><b>0 ➔ 2 ➔ 4 ➔ 6 ➔ 8 ➔ 10</b><br><br>How many jumps did the frog make to reach 10?",
+            "options": ["3 jumps", "4 jumps", "5 jumps", "10 jumps"],
+            "answer": "5 jumps",
+            "hint": "Count the arrows! This shows 5 x 2 = 10."
+        },
+        {
+            "type": "short",
+            "questionText": "A rabbit jumps on a <b>number line</b> counting by 10s:<br><b>0 ➔ 10 ➔ 20 ➔ 30</b><br><br>The rabbit made 3 jumps of 10. What is <b>3 x 10 = ___</b>?",
+            "answer": ["30"],
+            "hint": "Look at the last number the rabbit landed on!"
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the <b>2 Times Table</b>!",
+            "pairs": [
+                {"left": "3 x 2", "right": "6"},
+                {"left": "5 x 2", "right": "10"},
+                {"left": "7 x 2", "right": "14"},
+                {"left": "10 x 2", "right": "20"}
+            ],
+            "hint": "Double the number!"
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the <b>3 Times Table</b>!",
+            "pairs": [
+                {"left": "2 x 3", "right": "6"},
+                {"left": "4 x 3", "right": "12"},
+                {"left": "5 x 3", "right": "15"},
+                {"left": "6 x 3", "right": "18"}
+            ],
+            "hint": "Count by 3s: 3, 6, 9, 12, 15..."
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the <b>10 Times Table</b>!",
+            "pairs": [
+                {"left": "2 x 10", "right": "20"},
+                {"left": "4 x 10", "right": "40"},
+                {"left": "8 x 10", "right": "80"},
+                {"left": "9 x 10", "right": "90"}
+            ],
+            "hint": "Just add a zero to the end of the number!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "What is the rule for the <b>1 Times Table</b>?",
+            "options": ["The answer is always 1.", "The answer is always the same as the other number.", "The answer is always 0.", "The answer is always 10."],
+            "answer": "The answer is always the same as the other number.",
+            "hint": "Example: 5 x 1 = 5. 100 x 1 = 100."
+        },
+        {
+            "type": "short",
+            "questionText": "Calculate: <b>8 x 1 = ___</b>",
+            "answer": ["8"],
+            "hint": "8 groups of 1."
+        },
+        {
+            "type": "short",
+            "questionText": "Calculate: <b>6 x 2 = ___</b>",
+            "answer": ["12"],
+            "hint": "What is 6 + 6?"
+        },
+        {
+            "type": "short",
+            "questionText": "Calculate: <b>10 x 3 = ___</b>",
+            "answer": ["30"],
+            "hint": "Count by 10s three times!"
+        },
+        {
+            "type": "multi_mcq",
+            "questionText": "Tick ALL the sums that equal <b>12</b>!",
+            "options": [
+                "6 x 2",
+                "4 x 3",
+                "10 x 2",
+                "3 x 4"
+            ],
+            "answer": [
+                "6 x 2",
+                "4 x 3",
+                "3 x 4"
+            ],
+            "hint": "Three of these equal 12. One equals 20!"
+        },
+        {
+            "type": "mcq",
+            "questionText": "<b>Word Problem:</b> There are 4 bicycles in the park. Each bicycle has 2 wheels. How many wheels are there in total?",
+            "options": ["6 wheels", "8 wheels", "10 wheels", "4 wheels"],
+            "answer": "8 wheels",
+            "hint": "Do 4 x 2."
+        },
+        {
+            "type": "mcq",
+            "questionText": "<b>Word Problem:</b> Ali has 3 boxes of crayons. Each box has 10 crayons inside. How many crayons does Ali have altogether?",
+            "options": ["13 crayons", "20 crayons", "30 crayons", "40 crayons"],
+            "answer": "30 crayons",
+            "hint": "Do 3 x 10."
+        },
+        {
+            "type": "fill_letters",
+            "questionText": "Tap the letters! Neat rows and columns of objects is called an...",
+            "word": "ARRAY",
+            "blanks": [1, 2, 4],
+            "hint": "A _ _ A _"
+        },
+        {
+            "type": "matching",
+            "questionText": "Match the visual boxes to the correct multiplication sum!",
+            "pairs": [
+                {"left": "[ 🍉 ] [ 🍉 ]", "right": "2 x 1"},
+                {"left": "[ 🍉🍉 ] [ 🍉🍉 ]", "right": "2 x 2"},
+                {"left": "[ 🍉🍉🍉 ] [ 🍉🍉🍉 ]", "right": "2 x 3"},
+                {"left": "[ 🍉🍉 ] [ 🍉🍉 ] [ 🍉🍉 ]", "right": "3 x 2"}
+            ],
+            "hint": "Look at how many boxes there are, and how many items are inside."
+        }
+    ]
+}
